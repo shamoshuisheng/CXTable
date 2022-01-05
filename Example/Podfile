@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CXTable_Example' do
+  pod 'CXTable', :path => '../'
+
+  target 'CXTable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
