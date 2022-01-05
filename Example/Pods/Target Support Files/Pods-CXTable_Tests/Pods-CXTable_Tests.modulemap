@@ -1,0 +1,6 @@
+framework module Pods_CXTable_Tests {
+  umbrella header "Pods-CXTable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

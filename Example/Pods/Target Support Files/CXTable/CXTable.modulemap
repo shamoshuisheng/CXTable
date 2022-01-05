@@ -1,0 +1,6 @@
+framework module CXTable {
+  umbrella header "CXTable-umbrella.h"
+
+  export *
+  module * { export * }
+}

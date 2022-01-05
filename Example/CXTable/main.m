@@ -2,8 +2,8 @@
 //  main.m
 //  CXTable
 //
-//  Created by shamoshuisheng on 01/05/2022.
-//  Copyright (c) 2022 shamoshuisheng. All rights reserved.
+//  Created by hntnet on 11/08/2021.
+//  Copyright (c) 2021 hntnet. All rights reserved.
 //
 
 @import UIKit;
