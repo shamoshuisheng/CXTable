@@ -120,7 +120,6 @@ CXTableViewModel *CXTableParam(void){
 //        self.dataSource = @[@[@{@"name":@"1"},@{@"name":@"1"},@{@"name":@"1"},@{@"name":@"1"}]].mutableCopy;
         self.allowScroll = YES;
         self.allowRefresh = NO;
-
         
         
     }
