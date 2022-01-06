@@ -33,6 +33,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)reloadDate;
 
+-(void)selectRowAtIndexPath:(NSIndexPath *)indexPath scrollPosition:(UITableViewScrollPosition)scrollPosition;
+
 
 
 @property (nonatomic ,strong) CXTableViewModel *param;

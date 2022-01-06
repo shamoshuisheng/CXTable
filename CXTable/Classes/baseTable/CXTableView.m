@@ -8,7 +8,7 @@
 #define CXWeakSelf(type)  __weak typeof(type) weak##type = type;
 
 @interface CXTableView()<UITableViewDelegate,UITableViewDataSource>
-@property (nonatomic ,strong) UITableView *tableView;
+@property (nonatomic ,strong) UITableView *tb;
 
 
 @end
@@ -37,27 +37,27 @@
 }
 
 -(void)layoutSubviews{
-    self.tableView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+    self.tb.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
 }
 
 
 
 #pragma mark ==========tableview==========
--(UITableView *)tableView{
-    if (_tableView==nil) {
+-(UITableView *)tb{
+    if (_tb==nil) {
         if (self.param.cellNameArray.count == 0) {
             return nil;
         }
-        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width, 150) style:self.param.tableViewStyle];
-        _tableView.delegate = self;
-        _tableView.dataSource = self;
-        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-        _tableView.backgroundColor = [UIColor clearColor];
-        _tableView.showsVerticalScrollIndicator = NO;
-        _tableView.showsHorizontalScrollIndicator = NO;
+        _tb = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width, 150) style:self.param.tableViewStyle];
+        _tb.delegate = self;
+        _tb.dataSource = self;
+        _tb.separatorStyle = UITableViewCellSeparatorStyleNone;
+        _tb.backgroundColor = [UIColor clearColor];
+        _tb.showsVerticalScrollIndicator = NO;
+        _tb.showsHorizontalScrollIndicator = NO;
     
-        _tableView.estimatedSectionFooterHeight = 0.0;
-        _tableView.estimatedSectionHeaderHeight = 0.0;
+        _tb.estimatedSectionFooterHeight = 0.0;
+        _tb.estimatedSectionHeaderHeight = 0.0;
 
     //        if (@available(iOS 11.0, *))
     //        {
@@ -72,7 +72,7 @@
         
         
         if (@available(iOS 15.0, *)) {
-            _tableView.sectionHeaderTopPadding = 0;
+            _tb.sectionHeaderTopPadding = 0;
         }
         
         
@@ -81,17 +81,17 @@
             NSString *path = [[NSBundle mainBundle] pathForResource:cellName ofType:@"nib"];
             if (path != nil) {
                 //没有xib文件
-                [_tableView registerNib:[UINib nibWithNibName:cellName bundle:nil] forCellReuseIdentifier:cellName];
+                [_tb registerNib:[UINib nibWithNibName:cellName bundle:nil] forCellReuseIdentifier:cellName];
             }else{
-                [_tableView registerClass:NSClassFromString(cellName) forCellReuseIdentifier:cellName];
+                [_tb registerClass:NSClassFromString(cellName) forCellReuseIdentifier:cellName];
             }
             
         }
-
-        _tableView.bounces = YES;
-        _tableView.scrollEnabled = self.param.allowScroll;
+        
+        _tb.bounces = self.param.bounces;
+        _tb.scrollEnabled = self.param.allowScroll;
     }
-    return _tableView;
+    return _tb;
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -146,6 +146,8 @@
 }
 
 
+
+
 #pragma mark ----head----
 
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
@@ -197,17 +199,19 @@
 }
 
 -(void)reloadDate{
-    [self.tableView reloadData];
+    [self.tb reloadData];
 }
 
-
+-(void)selectRowAtIndexPath:(NSIndexPath *)indexPath scrollPosition:(UITableViewScrollPosition)scrollPosition{
+    [self.tb selectRowAtIndexPath:indexPath animated:YES scrollPosition:scrollPosition];
+}
 
 
 #pragma mark ===========数据加载===============
 -(void)setParam:(CXTableViewModel *)param{
     _param = param;
     
-    [self addSubview:self.tableView];
+    [self addSubview:self.tb];
     
 //    self.tableView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
     if (_param.allowRefresh) {
@@ -217,20 +221,18 @@
     if (_param.showEmpty) {
         [self setUpEmptyView];
     }
-    
-   
-    
 }
 
 #pragma mark ===EmptyView===
 -(void)setUpEmptyView
 {
     LYEmptyView *emptyView = [LYEmptyView emptyViewWithImageStr:self.param.emptyImageName?:@"empty_page" titleStr:nil detailStr:self.param.emptyTitleName?:@"暂无可用记录噢~"];
+    
     emptyView.subViewMargin = 30.f;
     
     emptyView.contentViewOffset = -100;
     emptyView.imageSize = (self.param.emptyImageSize.height != 0)?self.param.emptyImageSize:CGSizeMake([UIScreen mainScreen].bounds.size.width - 100, [UIScreen mainScreen].bounds.size.width - 100);
-    self.tableView.ly_emptyView = emptyView;
+    self.tb.ly_emptyView = emptyView;
 }
 
 
@@ -242,10 +244,10 @@
     CXWeakSelf(self);
 
 
-    self.tableView.mj_header.automaticallyChangeAlpha = YES;
+    self.tb.mj_header.automaticallyChangeAlpha = YES;
 
-    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-        weakself.tableView.mj_footer.hidden = YES;
+    self.tb.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        weakself.tb.mj_footer.hidden = YES;
         if (self.param.tableHeaderRefreshingBlock) {
             self.param.tableHeaderRefreshingBlock(self);
             
@@ -254,77 +256,42 @@
 //    [self.tableView.mj_header beginRefreshing];
 
     //追加尾部刷新
-    self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
+    self.tb.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
     
         if (self.param.tableFooterRefreshingBlock) {
             self.param.tableFooterRefreshingBlock(self);
         }
 
     }];
-    self.tableView.mj_footer.hidden = YES;
+    self.tb.mj_footer.hidden = YES;
     
 }
 #pragma mark ===停止刷新===
 -(void)stopRefreshing{
-    [self.tableView.mj_header endRefreshing];
-    [self.tableView.mj_footer endRefreshing];
+    [self.tb.mj_header endRefreshing];
+    [self.tb.mj_footer endRefreshing];
 }
 #pragma mark ===开始刷新===
 -(void)beginRefreshing{
-    [self.tableView.mj_header beginRefreshing];
-    self.tableView.mj_footer.hidden = YES;
+    [self.tb.mj_header beginRefreshing];
+    self.tb.mj_footer.hidden = YES;
     
 }
 #pragma mark ===显示无更多数据状态===
 -(void)endRefreshingWithNoMoreData{
-    [self.tableView.mj_footer endRefreshingWithNoMoreData];
+    [self.tb.mj_footer endRefreshingWithNoMoreData];
 }
 #pragma mark ===隐藏footer刷新===
 -(void)hiddenFooterRefreshing:(BOOL)hidden{
-    [self.tableView.mj_footer setHidden:hidden];
+    [self.tb.mj_footer setHidden:hidden];
 }
 #pragma mark ===隐藏header刷新===
 -(void)hiddenHeaderRefreshing:(BOOL)hidden{
-    [self.tableView.mj_header setHidden:hidden];
+    [self.tb.mj_header setHidden:hidden];
 }
 
 
 
 
-
-#pragma mark ===========创建tableView===============
--(UITableView *)creatTableView:(CGRect)rect andTableViewStyle:(UITableViewStyle)tableStyle andTarget:(id)target andSeparatorStyle:(UITableViewCellSeparatorStyle)separatorMode andCellReuseId:(NSString *)cellID andUseCellNib:(BOOL)useNib  andCellName:(NSString *)cellNmae andBackGroundColor:(UIColor *)color
-{
-    UITableView *tableView = [[UITableView alloc]initWithFrame:rect style:tableStyle];
-    tableView.delegate = target;
-    tableView.dataSource = target;
-    tableView.separatorStyle = separatorMode;
-    tableView.backgroundColor = color;
-    tableView.showsVerticalScrollIndicator = NO;
-    tableView.showsHorizontalScrollIndicator = NO;
-//    tableView.estimatedRowHeight = 0.0;
-    tableView.estimatedSectionFooterHeight = 0.0;
-    tableView.estimatedSectionHeaderHeight = 0.0;
-
-//        if (@available(iOS 11.0, *))
-//        {
-//            tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
-//        } else {
-//            // 针对 11.0 以下的iOS系统进行处理
-//            // 不要自动调整inset
-//            UIViewController *vc = target;
-//            vc.automaticallyAdjustsScrollViewInsets = NO;
-//        }
-    if (useNib) {
-        // 注册cell
-        [tableView registerNib:[UINib nibWithNibName:cellNmae bundle:nil] forCellReuseIdentifier:cellID];
-    } else{
-        [tableView registerClass:NSClassFromString(cellNmae) forCellReuseIdentifier:cellID];
-    }
-    if (@available(iOS 15.0, *)) {
-       tableView.sectionHeaderTopPadding = 0;
-    }
-    return tableView;
-}
 
 @end

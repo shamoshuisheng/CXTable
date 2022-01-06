@@ -78,6 +78,14 @@ CXPropSetFuncImpl(CXTableViewModel, NSArray *, cellNameArray);
 CXPropSetFuncImpl(CXTableViewModel, NSMutableArray *, dataSource);
 
 
+
+
+
+///是否允许滚动
+CXPropSetFuncImpl(CXTableViewModel, BOOL, allowScroll);
+///是否允许回弹
+CXPropSetFuncImpl(CXTableViewModel, BOOL, bounces);
+
 ///是否显示空页面
 CXPropSetFuncImpl(CXTableViewModel, BOOL, showEmpty);
 ///空页面图片名称
@@ -91,8 +99,6 @@ CXPropSetFuncImpl(CXTableViewModel, NSString *, emptyTitleName);
 
 
 
-///是否允许滚动
-CXPropSetFuncImpl(CXTableViewModel, BOOL, allowScroll);
 
 #pragma mark ===刷新相关===
 ///允许刷新
@@ -119,7 +125,9 @@ CXTableViewModel *CXTableParam(void){
         self.tableViewStyle = UITableViewStyleGrouped;
 //        self.dataSource = @[@[@{@"name":@"1"},@{@"name":@"1"},@{@"name":@"1"},@{@"name":@"1"}]].mutableCopy;
         self.allowScroll = YES;
-        self.allowRefresh = NO;   
+        self.allowRefresh = NO;
+        self.bounces = YES;
+       
         
     }
     return self;

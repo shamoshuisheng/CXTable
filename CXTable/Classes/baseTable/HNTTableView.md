@@ -41,20 +41,30 @@
 //    self.param.allowScroll = YES;
 //    self.param.dataSource = a;
 //
-    self.param =
-    Param()
-    .cellNameSet(NSStringFromClass([CXCommonCell2 class]))
-    .cellCallBlockSet(^UITableViewCell *(NSIndexPath * _Nonnull indexPath, UITableView * _Nonnull tableView, id  _Nonnull model) {
-        CXCommonCell2 *cell = (CXCommonCell2 *)[tableView dequeueReusableCellWithIdentifier:@"CXCommonCell2"];
-        if (cell == nil) {
-            cell = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([cell class]) owner:self options:nil].firstObject;
+       self.param =
+    CXTableParam()
+    .cellNameArraySet(@[NSStringFromClass([CXCommonCell2 class])])
+    .tableCellCallBlockSet(^UITableViewCell *(NSIndexPath * _Nonnull indexPath, UITableView * _Nonnull tableView) {
+        if (indexPath.row % 2 == 0) {
+            CXCommonCell2 *cell = (CXCommonCell2 *)[tableView dequeueReusableCellWithIdentifier:@"CXCommonCell2"];
+            if (cell == nil) {
+                cell = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([cell class]) owner:self options:nil].firstObject;
+            }
+            return cell;
+        }else{
+            CXTableViewCell *cell = (CXTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"CXTableViewCell"];
+            if (cell == nil) {
+                cell = [[CXTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CXTableViewCell"];
+                
+            }
+            return cell;
         }
-        return cell;
+      
     })
-    .cellHeightBlockSet(^CGFloat(NSIndexPath * _Nonnull indexPath, UITableView * _Nonnull tableView, id  _Nonnull model) {
+    .tableCellHeightBlockSet(^CGFloat(NSIndexPath * _Nonnull indexPath, UITableView * _Nonnull tableView) {
         return 100;
     })
-    .headerCallBlockSet(^UIView *(NSInteger section, UITableView * _Nonnull tableView, id  _Nonnull model) {
+    .tableHeaderCallBlockSet(^UIView *(NSInteger section, UITableView * _Nonnull tableView) {
         UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50)];
         if (section %2  == 0) {
             view.backgroundColor = [UIColor redColor];
@@ -64,15 +74,21 @@
 
         return view;
     })
-    .headerHeightBlockSet(^CGFloat(NSInteger section, UITableView * _Nonnull tableView) {
+    .tableHeaderHeightBlockSet(^CGFloat(NSInteger section, UITableView * _Nonnull tableView) {
                 return 50;
        })
     .allowScrollSet(YES)
     .allowRefreshSet(YES)
-    .headerWithRefreshingBlockSet(^(CXTableView *tableView) {
+    .tableHeaderRefreshingBlockSet(^(CXTableView *tableView) {
         [tableView stopRefreshing];
         NSLog(@"刷新结束");
+        self.param.dataSource = @[];
+        [tableView reloadDate];
     })
+    .showEmptySet(YES)
+//    .emptyImageNameSet(@"pic_null_noidentify")
+    .emptyTitleNameSet(@"没有记录")
+    
     .dataSourceSet(a)
     ;
     
@@ -96,7 +112,7 @@
 }
 
 
--(void)baseTableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+-(void)cxTableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"点击了---%ld",indexPath.row);
 }
 
