@@ -1,8 +1,8 @@
 {
   "name": "CXTable",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of CXTable.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "CXTable 列表",
   "homepage": "https://github.com/shamoshuisheng/CXTable",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/shamoshuisheng/CXTable.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"
