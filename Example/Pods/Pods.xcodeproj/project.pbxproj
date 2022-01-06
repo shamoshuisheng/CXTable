@@ -7,212 +7,219 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		034736B8B6E81BC5984F892D0319800E /* WMZDialogTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAF862B2F71C36C6DBA4DA0D51FC3A7 /* WMZDialogTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		040AD76B5A69C4B23E2081D666D3F145 /* WMZDialogNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = F434FA2636E96F757AB7E4B1B90E595D /* WMZDialogNormal.m */; };
-		062B60DD634ED15D4DDAD511C7C79485 /* CXTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B67CEA9F6A230533347A55EB20ADCC /* CXTableViewModel.m */; };
-		078B5146D0FEF8496AE8FE77733BE8CE /* MJRefreshStateTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 328D2ACCB87ABCF8944F62D43026C312 /* MJRefreshStateTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		081DEF9C2A44642D039C506FD486544A /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 7723C2E015A11ABFAE8AEE0EF7771401 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ED9B317EB6323F4DF346E10E16108A8 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 615CDBE904F5AAB52CB0227204B6663A /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1148931632149688C1712959B85163B2 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 22694F0109108E63FD755FDED26B339E /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11BFF11D885A6E4CB1E856B26917854C /* NSDate+WMZCalendarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = C34F40CDE85F6AFD8C47325CBAC7FAAC /* NSDate+WMZCalendarDate.m */; };
-		13947B3F9A704BB53BC78CEB91F1062F /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CCDF65407C50F566E1C4CEF63AA9B7 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02C17F0350E573EF580E8679ACBFC1A5 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D663B76E5479EE0575795F608D6E89 /* UIView+MJExtension.m */; };
+		04CBF79B3D9ED835B9C4DCAFB72FD18A /* WMZDialogNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = F434FA2636E96F757AB7E4B1B90E595D /* WMZDialogNormal.m */; };
+		04D9ED7CB4EC08BEE5AF7C8E3F1B3C54 /* WMZDialogMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE8B60EDC2709539554110EA5D3914A /* WMZDialogMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0906ADA4BEC22C0EA91C1367EAE519AD /* LYEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0329ECC787F2C80BBEEC808896A1371C /* LYEmptyBaseView.m */; };
+		09374CE5C86A56F01DC9FA32F4C0FD35 /* CXTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B562716939725D24510429E433C873 /* CXTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B84B2CFC200D7E4B9CA02989A81112 /* MJRefreshTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8812E075C0E76486062E04D5E446D015 /* MJRefreshTrailer.m */; };
+		0C85C02094D2F1C53B92FDF47679FFFE /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EBBD4E22E63D04361982FFF1F26A1B /* MJRefreshComponent.m */; };
+		148A05E6580690065CBE4A95BB7F2035 /* MJRefreshStateTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 328D2ACCB87ABCF8944F62D43026C312 /* MJRefreshStateTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14A5445F7CBD52A50406059B7EBDB054 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 71ADF19DF4C784E09B78258C4967107D /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17521F451446FD975759034F6ADF29B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		199B9C38992C9D1DDD3C1F5C2685B2DF /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F3A2DC35D47D9EC35DCC65B1C7E2B7 /* NSBundle+MJRefresh.m */; };
-		19D2714CCB29BEB16869C7C0C6B85B8D /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79879B44F64B132916F6331378498A68 /* MJRefreshAutoNormalFooter.m */; };
-		1B7E88717DB63F5A0460F12EE8EC680D /* WMZDialogNormalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C5983DCB8ED050596218791CF340B /* WMZDialogNormalView.m */; };
-		1D831BBA4DFC249B7CD194B5FE2ACF5D /* WMZDialogUntils.h in Headers */ = {isa = PBXBuildFile; fileRef = C2299EA18FBA1BF4A1BD6EBEAF1110D7 /* WMZDialogUntils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D99334E7DF3B7C248AC464AAF6AD1EC /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64813F859BAD9275446F2DFD8A5ABDF0 /* MJRefreshAutoGifFooter.m */; };
-		20D1FAB23E8106D58CC89D9A57E70C0A /* WMZDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 951384621DF055BC50BBD444A771F7D7 /* WMZDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1968128E98730EEB6B6F40537F185EC9 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B3BE22CD89C01BAF1D50B56DBD4BE25 /* MJRefresh.bundle */; };
+		19A8F2EEF6C366C0E849825BF4F0A7DD /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D269934AB2F8BACBFFF0909EB5D027FB /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19BC22F7C6FABD430B806784ED66B50F /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 663A5440959099FFB46A3C89891DA88D /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB4257566D72C9423BC126B9D30C1FF /* DialogCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7D11CB0C97BB0CF2FD3C60944EB9B5 /* DialogCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB6934E4BE2D0DC780614E3F885F040 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A4EC21C0AA812D7A5E73293F9A446 /* MJRefreshAutoFooter.m */; };
+		1EA2DE2EE724EC14FFA011F83556E4A9 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 582ED2B5112CC459ED4E3F330851CE9B /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20BF2C442657DADFDE1136601D705680 /* CXTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB58591D464A3051E4759E8830ED35A /* CXTable-dummy.m */; };
+		20D5E4FA7A93038564A3A1B3BE951C17 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4451248DEE41371DF20F3B5D5D95FE12 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20E8976045CF23F0A77817BEA5138BA6 /* WMZDialogAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7076D673F6EA3D2E69363F9233456B2 /* WMZDialogAnimation.m */; };
 		25B36D75F8443150F81A52FA301189CC /* Pods-CXTable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A7A11E357A8ADFCAA0615DA40F7BEA /* Pods-CXTable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26A693681956E59BDB71FCDE573E55AA /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 996B83EBAD027F950DEC7A1964F3CDB6 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A60727F3D8CAD1D6EEE12DD2E008920 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BD420DB1C360E676C0E708AC286D56 /* ReplaceMe.m */; };
-		2A85EB696FAD918AB758506B58801F51 /* WMZDialogDateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 466A5DFE398063DD4A3D1D7CE69BE737 /* WMZDialogDateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AB00514696166A97C7A39BC6C970AEB /* DialogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC4C820A34A1A96F94DCE1C3827D4C /* DialogCell.m */; };
-		2BFF8ED17FDA8F16911D6771354D5E60 /* LYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = F125DB627B4A16A5DEB53935223BA01F /* LYEmptyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		308103F31A55B52EB07FB9FF9F033117 /* WMZDialogNormalView.h in Headers */ = {isa = PBXBuildFile; fileRef = D365EBE296997479DCA5606780A65B29 /* WMZDialogNormalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31735ADA41B8E1B37EE7B29884309085 /* WMZDialogMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE8B60EDC2709539554110EA5D3914A /* WMZDialogMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3180DA29047695BA717A34D40F30184F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		3327E57FD463997C5EAD29E943170B19 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D269934AB2F8BACBFFF0909EB5D027FB /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3364395153742B4885F55951DDE78C1A /* CXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FC021ACBE569AE9654104B248A35DA /* CXTableView.m */; };
-		343AD1C0BF49AF80C04FAC650690BD72 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = CB751DEA6BE317A44974DB75A1B8B730 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		345A6C612C72F0D18C708A13D92CACD8 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B382EF5C8042BED105E3C59F70483 /* MJRefreshBackNormalFooter.m */; };
-		34F97204FB2BB8DA6A30A4C9DACFB50C /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF940F2AFB9762D5614DAB77134B06E3 /* LYEmptyView.m */; };
-		3588049ADB3814F61EF89794C8B8F234 /* CXTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E4524908006B289C7AB489DFFB453A47 /* CXTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38B97FD51933E6E94472E2F177DF2D43 /* WMZDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6A593A6F18298E0E477DFCD811C7AA1 /* WMZDialog.bundle */; };
-		3C9E014AFEA56F048D317F8109864E77 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CEFF11DFCCEA84DF390F28AFEE5FF68 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41B18D671F3227FECEB1BE157181C2D8 /* WMZDialogAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7076D673F6EA3D2E69363F9233456B2 /* WMZDialogAnimation.m */; };
+		295CB6A36B84B574D7F4119A71178E9B /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB572BD153547BD9472BDCD579259C9 /* MJRefresh-dummy.m */; };
+		2A63BF71AA8E3A15191127C67E8C267F /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64813F859BAD9275446F2DFD8A5ABDF0 /* MJRefreshAutoGifFooter.m */; };
+		2B04E5746D0BC6D35801C66CA564CA65 /* WMZDialogNormalView.h in Headers */ = {isa = PBXBuildFile; fileRef = D365EBE296997479DCA5606780A65B29 /* WMZDialogNormalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C3A70AD3B9FE36766EF7D7DB8AB4B10 /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F22730EE143936438155123ADF5E232C /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CD0ED719994AEBDF2D6F7FBC639DB82 /* MJRefreshNormalTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8295F16F7E074646FAC1CD1AA1990144 /* MJRefreshNormalTrailer.m */; };
+		3082B5F4DF6A78FE76607260122C66A6 /* WMZDialogParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBA1A04AA380881F412BE3AE107CBD /* WMZDialogParam.m */; };
+		31781DE42B39A6AADC0BF8319198CE29 /* WMZDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AE5894707BF4E24FE487A3EBD0D46B /* WMZDialog.m */; };
+		3199C34A16C7AD2CC2A34CE7054338E2 /* WMZDialogView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2239D8DC3BC0BA2D21DE4BCABEA55635 /* WMZDialogView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33FBBC8B647A5073F867E578A004D9A0 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 14203F1808FB448270ED5529C13B46B8 /* MJRefreshStateHeader.m */; };
+		34E8EEC48AA8466D495A088520698148 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9739CEE69B9D471AE9CFAFD5FD83A2 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3664EAC3A24F05F0563A59B934C0D022 /* WMZDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C040AC33E251A4EA09CD1CE8AF97883 /* WMZDialog-dummy.m */; };
+		394CA3C47C7A95DE6A43BB1FE5448963 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E37F97FDC77F6FA8BB3D49848D681E /* MJRefreshNormalHeader.m */; };
+		3B57E0ED40853051509CBD093FD6CAFC /* LYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = F125DB627B4A16A5DEB53935223BA01F /* LYEmptyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F696CEC072EF16F2CF7914F11F002EC /* WMZDialogManage.m in Sources */ = {isa = PBXBuildFile; fileRef = E67A1D8ED1B4327028517ECCF102D0FD /* WMZDialogManage.m */; };
+		400FA32BDF4D7309661B21C63AD51DCB /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C72C4D32D6A6B165CB184C3D8E72E218 /* MJRefreshBackGifFooter.m */; };
+		4318B13F134FEEB04AA7BEBDE8679ED8 /* WMZDialogTableProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 649275E31E64823D04A9B00E4F7493A2 /* WMZDialogTableProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		432ED1FF9B63E0C47880295C948A7307 /* Pods-CXTable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CCCD9D700241F875C3F3FFB928A0C6 /* Pods-CXTable_Tests-dummy.m */; };
-		4367F6C94F8DBA211B0C27E091C5C9AB /* WMZDialogEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD6FF74F9089A7D2E8A1B8755E668 /* WMZDialogEditView.m */; };
-		46569840EC88BD468EFEC072EACFB106 /* WMZDialogNormalProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 657896F7712A123D7AD1B4D6126E976E /* WMZDialogNormalProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4659190F1A15FCE86674790672E6B01F /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B3BE22CD89C01BAF1D50B56DBD4BE25 /* MJRefresh.bundle */; };
-		48DC94D7E1701FD89B50D5006059BA8C /* empty_page.png in Sources */ = {isa = PBXBuildFile; fileRef = BF6D3203FFA658AC9EEFA92DD2A3E0C9 /* empty_page.png */; };
-		4A06F0FE94C4DE1D6A46678BDCADDCDF /* LYEmptyView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 573174576C901DF8C45DA5845F98B3BF /* LYEmptyView-dummy.m */; };
-		4A129352ED5B4FD228111F4449612D89 /* UIView+Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = 375295DF8E416D3938B0F3885EBCA9F0 /* UIView+Empty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C39A3506379BDC477D3DBDC7990986D /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFE25A92AB64F1CEC2D078DFA4B60A4 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D3DE38A8F7D11229619D0103094F54F /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4451248DEE41371DF20F3B5D5D95FE12 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50D944A41779115B911EEC56130E84F7 /* WMZDialogSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 733BABFB3C18EF63AB8B0AC64C0C59F9 /* WMZDialogSelectView.m */; };
-		511A8F46A1596AAECD1B236A30F95923 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E37F97FDC77F6FA8BB3D49848D681E /* MJRefreshNormalHeader.m */; };
-		516E3B540354BA6D06BCE3BC1C8B4734 /* LYEmptyBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8A77567C360B8E57FC6784A05F061E /* LYEmptyBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		525D3A5700E9D167466D4E131F362A3C /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 582ED2B5112CC459ED4E3F330851CE9B /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53727184DF7C311C9DDFF4E465029F64 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB572BD153547BD9472BDCD579259C9 /* MJRefresh-dummy.m */; };
-		55A75E10A982A69332F69F4DAF5D902B /* WMZDialogView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2239D8DC3BC0BA2D21DE4BCABEA55635 /* WMZDialogView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5630CB642F374AB1171C57B628D5D043 /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CB78B3AC21466C720A86BB5BB03244 /* UIView+LYExtension.m */; };
-		5830DCEBF3BA1F6E74D44E2AA2AA5325 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 14203F1808FB448270ED5529C13B46B8 /* MJRefreshStateHeader.m */; };
-		59659B0EF45F035A097B3A3EB5D8433F /* MJRefreshNormalTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8295F16F7E074646FAC1CD1AA1990144 /* MJRefreshNormalTrailer.m */; };
-		5973D19ADBB613D938E7D48D08ED5CA4 /* MJRefreshConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FC874C23F8767EB5BBBC8938168262 /* MJRefreshConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AA6D89FFE81F1FDBC13B006BC96C9D1 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 663A5440959099FFB46A3C89891DA88D /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CDC13859167C83007112EF4A17AED24 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C72C4D32D6A6B165CB184C3D8E72E218 /* MJRefreshBackGifFooter.m */; };
-		6011F5B73DFA4D75DB35888DBBB5F238 /* WMZDiaLogBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF536C12ED4A4426D191625E538632A /* WMZDiaLogBase.m */; };
-		607307BE981944930B4A54CF106CBF0F /* WMZDialogParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBA1A04AA380881F412BE3AE107CBD /* WMZDialogParam.m */; };
-		607FA06D32E79044BAC9DAA838CE6CC6 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 71ADF19DF4C784E09B78258C4967107D /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60EE6EBA9CCABC85643A19B40ADE2AF4 /* CXTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 542C8A3B07633B17C8F27A52B45D5B69 /* CXTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		628A6562E09A8562FE6F43CBAD419859 /* CXTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF31290D30767770AB3C44C7ABED359 /* CXTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62DB6B1A71BBDD180273C16DB730B3A2 /* MJRefreshConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C1CDEBE78472F11B035E21CA0E32D /* MJRefreshConfig.m */; };
-		65A829ED2E14FDB634A47B7160EAA682 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D663B76E5479EE0575795F608D6E89 /* UIView+MJExtension.m */; };
-		686500E3713E2D0E6759E76B5E086D6A /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DD6001CBDBBC33C587B74558E41754 /* UIScrollView+MJRefresh.m */; };
-		6FAB6B956E7421247A364E7DE67F3A75 /* WMZDialogTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 274BDA70EECD79362757046DC55F3522 /* WMZDialogTree.m */; };
-		72066C37AC3886E9BD0E73B46697BD23 /* WMZDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 320DACF0C828DCA6C6C4B760ECFEC62D /* WMZDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7372A14A16D529B77050DC689E506C63 /* HNTTableView.md in Sources */ = {isa = PBXBuildFile; fileRef = 4B671327843444ED8571238D8A8B72E5 /* HNTTableView.md */; };
-		7656878EA966524B98F728130BA4F26E /* WMZDialogParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA3E3E3A2B08AD75137BE9C671F1D3D /* WMZDialogParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76F5FFD1955561DC628C4133D765C5A5 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F8D228A65E65225CFDD2891A72ED9 /* MJRefreshConst.m */; };
-		77F351F51B71B73DBD96A92E35D6331A /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9739CEE69B9D471AE9CFAFD5FD83A2 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7836E23CFDA411BD65B56E03F8DD78BA /* WMZDialogManage.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F0460E5D11D3E1A56CE3734018B7E5 /* WMZDialogManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78AB6E45E204A517665049C0F3AE14CB /* WMZDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AE5894707BF4E24FE487A3EBD0D46B /* WMZDialog.m */; };
-		820F4B644BB3C53E3C5579C2F24BF13A /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CBBE220F32114930DB6F8B79BCB292 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B915F05A0B6461BA2A6DECC94269E79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		8F30A682E30EFA870730C982454DAECB /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D787587D9633D77FB5F41D5C2CDE335 /* MJRefreshBackFooter.m */; };
-		8F438F967F17A4B40CB6FE0757C5EAE2 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9E6D616802EEA738D2E4D6793C6DE /* MJRefreshFooter.m */; };
-		97EEACCCBB4F57E6B9D6F504FB390C17 /* WMZDialogDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = B452E2EBFBAECED734A276C7BC00A1EA /* WMZDialogDateView.m */; };
-		9A09F546AF476CD5EA65D309E6750BD4 /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 80725EC6120A216D0FDFCD5233BAAE3F /* UIView+Empty.m */; };
-		9B24670A1109FF1792A7F1316CF52AC4 /* WMZDialogManage.m in Sources */ = {isa = PBXBuildFile; fileRef = E67A1D8ED1B4327028517ECCF102D0FD /* WMZDialogManage.m */; };
-		9D723702FFA913AB1E390AF6BD761AB4 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2838483855CD4D932E5543AC392D6C25 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EB899A5955EC6C8597B83E1DBA5F237 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A08E51FAC5B0299A3BB865D3985655D1 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F67255198EA2A6FF77D324FC6EF970E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		A26104D835AB783EF3882B32688584BD /* WMZDialogTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E15AD12F12E998CE421EE092E21AC360 /* WMZDialogTable.m */; };
-		A312BCDD0732D1375C4048C8B75F98C4 /* LYEmptyViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE931591F3951C8881542D879CB95D4 /* LYEmptyViewHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4DCBF5DB8C83383ADC0F2CEF506B76A /* NSDate+WMZCalendarDate.h in Headers */ = {isa = PBXBuildFile; fileRef = E22A55513F386B9E730B59E8FFC0DD38 /* NSDate+WMZCalendarDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAA990ADFECADC98646C3ED6CC1C396C /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F3AF90B82A5B5B52E93E9D33BAB07F /* MJRefreshGifHeader.m */; };
-		ABD31516B212AD7009FEDD9E4C3C9758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		B23939136CEA428C1E68AAD3BF7E84D1 /* MJRefreshTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C9D753C249A31C9EDBD6336A7B30DC /* MJRefreshTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4086EE7344B80C8EEE1CDA5DAFE6281 /* WMZDialogNormal.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F3574B47DE08A32EF5096FF58CAFD1 /* WMZDialogNormal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6052C2EF2D4EB65D5A75EA9F2091765 /* MJRefreshTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8812E075C0E76486062E04D5E446D015 /* MJRefreshTrailer.m */; };
-		B618DD64CB0693B73686C8647CFA0C09 /* UICollectionViewLayout+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F952EFDD8FE9F11F63BB88CBF745FBF /* UICollectionViewLayout+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B751655B5E204784DDD7157AFCB5FFE0 /* LYEmptyView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5459FF6B10D90AB273CAE5F173171B /* LYEmptyView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8CC3B3AD2D34A41F293878B58995792 /* WMZDialogUntils.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FA676F7ECAA275B9FA0A10FD63B691 /* WMZDialogUntils.m */; };
-		B9D5A34D95690EBA0CC01C9072F53600 /* WMZDialogTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6546B3E0E1C26E11BCA4BA480BA774 /* WMZDialogTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C02F09E64AA474118CD11A311875526B /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C830AF6748FB703AD1845497BA4A8894 /* MJRefreshBackStateFooter.m */; };
-		C03B69AA2E5D38BCC14D321214A68384 /* DialogCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7D11CB0C97BB0CF2FD3C60944EB9B5 /* DialogCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4D3A67887699E9C63BABCF88B8F911B /* WMZDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C040AC33E251A4EA09CD1CE8AF97883 /* WMZDialog-dummy.m */; };
-		C9C06523D8EDB590A14F92AADE11E944 /* UIView+LYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6F99AF3FFF5E1FCCA7B6580E1D872C /* UIView+LYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9F74408A67DEAF9044549AB51BCE2B3 /* WMZCustomPrototol.h in Headers */ = {isa = PBXBuildFile; fileRef = 74447A143E87AFC78E55A6386C451DCE /* WMZCustomPrototol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAA0206D0D09E0C4142027488BB91811 /* WMZDialogTableProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 649275E31E64823D04A9B00E4F7493A2 /* WMZDialogTableProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAC069558D31344938F1B26142BB449B /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B2944146C2235E7DE080CC097DE8AE /* UIScrollView+MJExtension.m */; };
-		CB88A34FE6765C1B155813002638E45C /* WMZDiaLogBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 03CC8BE6CF84B907AF019D94BE6CF34F /* WMZDiaLogBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D121464DB10A9C74E88BF6207F37320B /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F22730EE143936438155123ADF5E232C /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D97A7CD1A68FEBF6A4110DC42DD9A3 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CBBE220F32114930DB6F8B79BCB292 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C2C51547DB6E3C398437BEECB236BE /* empty_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB5DA7F44B2871910D6C96F6BEA6792 /* empty_page.png */; };
+		4AF0E38266D767C12077FA587BCD233B /* DialogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC4C820A34A1A96F94DCE1C3827D4C /* DialogCell.m */; };
+		4BE961F318B34BB25EA27DA46B1C5792 /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 80725EC6120A216D0FDFCD5233BAAE3F /* UIView+Empty.m */; };
+		4EBEBB6B129149B88ABD79FF5D135A66 /* WMZDialogTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E15AD12F12E998CE421EE092E21AC360 /* WMZDialogTable.m */; };
+		5178303F1D28F43E6ACB425CA8C62CB2 /* MJRefreshConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C1CDEBE78472F11B035E21CA0E32D /* MJRefreshConfig.m */; };
+		53D34AB08DE29E950519EF1C868A536B /* WMZDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6A593A6F18298E0E477DFCD811C7AA1 /* WMZDialog.bundle */; };
+		54E60BA5C2C90266415DADD01A182388 /* WMZDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 951384621DF055BC50BBD444A771F7D7 /* WMZDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575FD7551ABF6F9C4B193CE8DCD373D7 /* CXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A8552FBF232305006847782529F062 /* CXTableView.m */; };
+		5A5826B0780E1F38C6C58CFCB8B81F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		5ACE0F84E5AF2D8659AB687B9FA821B7 /* WMZDiaLogBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF536C12ED4A4426D191625E538632A /* WMZDiaLogBase.m */; };
+		5EB349DB025EA1A892F8DFDECD143688 /* MJRefreshConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FC874C23F8767EB5BBBC8938168262 /* MJRefreshConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F281A6A95F737AF81184D6F5E00DB89 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2264B4B013112CFAD6F4F00FF50B7AAF /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60DB4E91319156CC8852B255AC112978 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 615CDBE904F5AAB52CB0227204B6663A /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6105F3527749886E2F2B045AEEFAD758 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B382EF5C8042BED105E3C59F70483 /* MJRefreshBackNormalFooter.m */; };
+		62ABA21BB48B56B42D32AC5E56DBD950 /* WMZDialogAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C02393DAEE2CF3F7E170A2D09DD99ED /* WMZDialogAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B3E062476F957DBBFB46D7F03D46D9B /* CXTable-CXTable in Resources */ = {isa = PBXBuildFile; fileRef = 4EFA358CD02A03620342B8625F9925E8 /* CXTable-CXTable */; };
+		6D00B4FDAA9D42346A721405A71AAB41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6E2FBC1C827FB9ED08305B4500EAD1CC /* WMZDialogDateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 466A5DFE398063DD4A3D1D7CE69BE737 /* WMZDialogDateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722D8FB49B0A79DBB0BD7BF7B332D344 /* WMZDialogNormal.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F3574B47DE08A32EF5096FF58CAFD1 /* WMZDialogNormal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		738DB34543DA68123872A0ADBD2D2714 /* LYEmptyView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 573174576C901DF8C45DA5845F98B3BF /* LYEmptyView-dummy.m */; };
+		794B810D3DC4AF41D7F10B0693E3D9BD /* WMZCustomPrototol.h in Headers */ = {isa = PBXBuildFile; fileRef = 74447A143E87AFC78E55A6386C451DCE /* WMZCustomPrototol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADF27A57BD237B3CB36641C1749E7A3 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9E6D616802EEA738D2E4D6793C6DE /* MJRefreshFooter.m */; };
+		7D579D222C8DBABDC920F4BED567DF02 /* WMZDialogParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA3E3E3A2B08AD75137BE9C671F1D3D /* WMZDialogParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		801585DA9281FD9D85AF59FC51F99707 /* CXTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECFC2DA0F5033FEAD4BBA65CE9EDF9C /* CXTableViewModel.m */; };
+		81DF7219F3C903157C24060E32254A63 /* LYEmptyViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE931591F3951C8881542D879CB95D4 /* LYEmptyViewHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8544CE1FD8B22F578EAC1772A154E4E0 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 996B83EBAD027F950DEC7A1964F3CDB6 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85658C3F822F5EDE353A0BF73A9EB122 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 784F30642A67E411FA2FC22BB8DF4F11 /* ReplaceMe.m */; };
+		8C6BA0942582B7D1C305FB618277E1EB /* LYEmptyBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8A77567C360B8E57FC6784A05F061E /* LYEmptyBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C823DF331EB11A5A95C549D646A50CD /* MJRefreshTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C9D753C249A31C9EDBD6336A7B30DC /* MJRefreshTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FFE3CDD75A15D740E6982851A2C251A /* WMZDialogNormalProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 657896F7712A123D7AD1B4D6126E976E /* WMZDialogNormalProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90179F4DD1709143D193A3C8836E9F92 /* WMZDialogUntils.h in Headers */ = {isa = PBXBuildFile; fileRef = C2299EA18FBA1BF4A1BD6EBEAF1110D7 /* WMZDialogUntils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9193D1A90B7E1453E0FBD26CFAF6CDED /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B04F31434DE9AF6C9ACFAC8B0A38BFF8 /* MJRefreshAutoStateFooter.m */; };
+		934E352E6E33EEEE1FB1349EA54939F1 /* WMZDiaLogBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 03CC8BE6CF84B907AF019D94BE6CF34F /* WMZDiaLogBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94143F9B31F58709281FF70CEC9DEB29 /* WMZDialogEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD6FF74F9089A7D2E8A1B8755E668 /* WMZDialogEditView.m */; };
+		9596122DD912DCC4821D26B1B6C7CFED /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79879B44F64B132916F6331378498A68 /* MJRefreshAutoNormalFooter.m */; };
+		971AC9270E5415270D77736D62D96716 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A08E51FAC5B0299A3BB865D3985655D1 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FFD017E01CB3D56B9B58CC5E3197873 /* WMZDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 320DACF0C828DCA6C6C4B760ECFEC62D /* WMZDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A677EE15BF7832588FF28146783FC985 /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF940F2AFB9762D5614DAB77134B06E3 /* LYEmptyView.m */; };
+		A9498E9CFB3A84C5D5934703B1240FFE /* UIView+Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = 375295DF8E416D3938B0F3885EBCA9F0 /* UIView+Empty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF8908D8F3C6107775D8C7587A6A6493 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA86E4B4F38E6602A8C39843BC934885 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04D3A85D67B93DAB57ECD445DE324CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		B0CCF6192EC4E5E84DCD6D34FFB82009 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDF27E52A9451EB110E87CBC231D286 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FA8F72CCAD7234870D71085B354B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		B316B1A4826B41A275BFA32BF343224E /* WMZDialogTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 274BDA70EECD79362757046DC55F3522 /* WMZDialogTree.m */; };
+		B34D0C7221FF6DC891BD64286326009E /* WMZDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B0C2A5DB8CE616169F58CF58B38F /* WMZDialogView.m */; };
+		B388B50ED415EA69C2C1363D4D0EC4CE /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 7723C2E015A11ABFAE8AEE0EF7771401 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B63AC72620C22E62FABEB3D10921C244 /* NSDate+WMZCalendarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = C34F40CDE85F6AFD8C47325CBAC7FAAC /* NSDate+WMZCalendarDate.m */; };
+		B835236432E42EAB99D0D906C46606D5 /* WMZDialogTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6546B3E0E1C26E11BCA4BA480BA774 /* WMZDialogTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B88EABF063C845F9B0E4D61192633C25 /* HNTTableView.md in Sources */ = {isa = PBXBuildFile; fileRef = EA6894BA9D7EF023BE86FDCA38C8F4ED /* HNTTableView.md */; };
+		BA4E7E9638D418A9C93169AA7D27483D /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CCDF65407C50F566E1C4CEF63AA9B7 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA68EF145D1369A0EBDB709CF23A08AC /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2838483855CD4D932E5543AC392D6C25 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD9CDC8ED577E1F8EAE1D7AAB1686706 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C830AF6748FB703AD1845497BA4A8894 /* MJRefreshBackStateFooter.m */; };
+		BEDC1965C03BA024DC30831BD0CE0B3C /* MJRefreshNormalTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B1AEDA66812A7883ECE5764EE944DA /* MJRefreshNormalTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C25BD43A3A3233D2F01875922B83EFDA /* WMZDialogNormalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C5983DCB8ED050596218791CF340B /* WMZDialogNormalView.m */; };
+		C817D8B0232C8D62D3D2378F29FF0CC2 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 22694F0109108E63FD755FDED26B339E /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C85BD2806A7A5792FA37CB41D0E72C18 /* WMZDialogDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = B452E2EBFBAECED734A276C7BC00A1EA /* WMZDialogDateView.m */; };
+		C9B43DECB93F124BC1D3F793C4E04D0B /* WMZDialogSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 733BABFB3C18EF63AB8B0AC64C0C59F9 /* WMZDialogSelectView.m */; };
+		CDC581BEC723CAFB705E926CD53B899C /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F8D228A65E65225CFDD2891A72ED9 /* MJRefreshConst.m */; };
 		D1CBF7D91F8109D2925AA0BEB0A8747A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D3006571F1F4F5B5430AF3A6411819ED /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D787587D9633D77FB5F41D5C2CDE335 /* MJRefreshBackFooter.m */; };
 		D4C6B186A728FF49C27297FB64D2B2E4 /* Pods-CXTable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFF8601A2F961983F0BE4DFC8097FB2 /* Pods-CXTable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D57DDBDF5E0D9728A7230576ACFB09DC /* WMZDialogEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D285A9819D66B4EA27024BCB8291F2C /* WMZDialogEditView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6C6D196DFA84576D428A1E895B1D27B /* WMZDialogSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D5A33B267C4CB38D8E419BE94D8EEF /* WMZDialogSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D86C6DF99FA5FB17EA1D23401A8C8792 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB80196D2FC063690F760599A390438 /* MJRefreshHeader.m */; };
-		DAD4AA9F05D311165EE5AC6212273677 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2264B4B013112CFAD6F4F00FF50B7AAF /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD6D9B9A785648235D4C7F28F1B9DFB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		E19E469548EE1606F00587E1D131AA8C /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EBBD4E22E63D04361982FFF1F26A1B /* MJRefreshComponent.m */; };
-		E3495E55D557D0BFEAC98E6B6B554498 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDF27E52A9451EB110E87CBC231D286 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB044E875D2337B8B9A1BD1E6B5A7DBC /* MJRefreshStateTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F60D2364909D63C82C162E2AEE21983 /* MJRefreshStateTrailer.m */; };
+		DE87C16AE2F24A95EE424F1FEBBDCBFE /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F3A2DC35D47D9EC35DCC65B1C7E2B7 /* NSBundle+MJRefresh.m */; };
+		DEA274D8B738A19C8603B3EC08B645B6 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB80196D2FC063690F760599A390438 /* MJRefreshHeader.m */; };
+		DEADBA22761AD687CC829B6794E63874 /* UICollectionViewLayout+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55FEB5008ED60A6B1A13156A69DF40 /* UICollectionViewLayout+MJRefresh.m */; };
+		DF2F5C8BE42335A66E109F84515FBB47 /* WMZDialogEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D285A9819D66B4EA27024BCB8291F2C /* WMZDialogEditView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B4ED56644A4497FCD5296721F87EC1 /* UICollectionViewLayout+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F952EFDD8FE9F11F63BB88CBF745FBF /* UICollectionViewLayout+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E286EB4003E86FBBC8ECFC0ABED044E4 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFE25A92AB64F1CEC2D078DFA4B60A4 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E4F18616AE77FC865989F77C2EFFEB /* UIView+LYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6F99AF3FFF5E1FCCA7B6580E1D872C /* UIView+LYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E374A5743784E133BA9546870822D184 /* Pods-CXTable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEA64358D88B4E2E74E9F03D0934E47 /* Pods-CXTable_Example-dummy.m */; };
-		E4009E26CB4E8EF9F39DE9A1CCE31112 /* CXTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7430F77B09FA68C5EC2BC77AF6750BDD /* CXTable-dummy.m */; };
-		E75DE383840F52FDD1B3DE23AF1DE184 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B04F31434DE9AF6C9ACFAC8B0A38BFF8 /* MJRefreshAutoStateFooter.m */; };
-		EA3FB42F7FF2E4AAB837BEBC834E4162 /* MJRefreshStateTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F60D2364909D63C82C162E2AEE21983 /* MJRefreshStateTrailer.m */; };
-		EAABE3A7A4E7712E828CAF9E25D514EA /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A4EC21C0AA812D7A5E73293F9A446 /* MJRefreshAutoFooter.m */; };
-		EC91AD83769F7FB2E86B8628C87F962A /* MJRefreshNormalTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B1AEDA66812A7883ECE5764EE944DA /* MJRefreshNormalTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE94F81D283F2495D6A7220A105BFE53 /* UICollectionViewLayout+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55FEB5008ED60A6B1A13156A69DF40 /* UICollectionViewLayout+MJRefresh.m */; };
-		F18A907373EDBF7AE895587541069E9A /* WMZDialogAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C02393DAEE2CF3F7E170A2D09DD99ED /* WMZDialogAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9B9073D89D528A85E6982C7AF2631E2 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA86E4B4F38E6602A8C39843BC934885 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC370AA8EF4C3198D214FA40E09C8011 /* WMZDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B0C2A5DB8CE616169F58CF58B38F /* WMZDialogView.m */; };
-		FFE1B0B0D61873CB723CF9A06A235623 /* LYEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0329ECC787F2C80BBEEC808896A1371C /* LYEmptyBaseView.m */; };
+		E5FCCBE31AB0D460DA944193614581B6 /* WMZDialogTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAF862B2F71C36C6DBA4DA0D51FC3A7 /* WMZDialogTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB58F6D44FB1783F37E6C93E8579932 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B2944146C2235E7DE080CC097DE8AE /* UIScrollView+MJExtension.m */; };
+		EDA921D8607B5DDC605DED6770B7A604 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CEFF11DFCCEA84DF390F28AFEE5FF68 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA7839D1BA8A7A23D0497ABC5F89793 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = CB751DEA6BE317A44974DB75A1B8B730 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0F4E5AC1E33DC52055852340E6525A6 /* LYEmptyView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5459FF6B10D90AB273CAE5F173171B /* LYEmptyView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F11A4D8705DD3CBA0376537139EE2129 /* CXTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5921A329877A07BD5E623D76063AC8 /* CXTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F369141780AB9163558D939E3B37106B /* NSDate+WMZCalendarDate.h in Headers */ = {isa = PBXBuildFile; fileRef = E22A55513F386B9E730B59E8FFC0DD38 /* NSDate+WMZCalendarDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F51D2A19F67439BE13B8EDBD996830A4 /* CXTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 14945A00414917288B9D79DAC607ADC1 /* CXTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75BE010BFA177C3DFEB0BF23FF2FB8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		F769205AFF5CBCCE01DB7350493B6A6D /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F3AF90B82A5B5B52E93E9D33BAB07F /* MJRefreshGifHeader.m */; };
+		F7865E96DB95D4F27E0DEECB62B51060 /* WMZDialogManage.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F0460E5D11D3E1A56CE3734018B7E5 /* WMZDialogManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB4DCBFCA95BA970405286B45A03E7D2 /* WMZDialogUntils.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FA676F7ECAA275B9FA0A10FD63B691 /* WMZDialogUntils.m */; };
+		FC28B6A571A8D160062A99CC5442EC24 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DD6001CBDBBC33C587B74558E41754 /* UIScrollView+MJRefresh.m */; };
+		FD369F66A6ED20CAF4271DA588529702 /* WMZDialogSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D5A33B267C4CB38D8E419BE94D8EEF /* WMZDialogSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6867D32145F4CE02AD9B813A1AB66B /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CB78B3AC21466C720A86BB5BB03244 /* UIView+LYExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FC7C4FF5DF214C6373886618A00C3A7 /* PBXContainerItemProxy */ = {
+		1D94648886397A44C8ECD462619FA89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA4C7BB776C55F3421BA137B643DD64;
+			remoteInfo = LYEmptyView;
+		};
+		4C26086826E488804CF8536CEB33CDDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C176F2FC508A7F81487945C9F7A21161;
 			remoteInfo = WMZDialog;
 		};
-		667DE159944C1CF736709BB9DF7A84CA /* PBXContainerItemProxy */ = {
+		4FDF00E039B309BEE7B0320EE3FAC793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
+			remoteInfo = MJRefresh;
+		};
+		678243A6DC2359E9942FBF9EE251D4DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
+			remoteInfo = MJRefresh;
+		};
+		6F5BE9EE4D3527938EC999C4747FF939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA4C7BB776C55F3421BA137B643DD64;
+			remoteInfo = LYEmptyView;
+		};
+		7D954F511D3933E7D70AFCDEB96E3743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B0F395BFD4408316DD5886F22CB1BD1;
+			remoteInfo = "CXTable-CXTable";
+		};
+		80287BF017990261574949787BC4BC64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0D07496F5EB74BE2EE4BF40B3F0F1032;
 			remoteInfo = "Pods-CXTable_Example";
 		};
-		6F3442339508C0C3DDE18E1F13ADDD93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4AA4C7BB776C55F3421BA137B643DD64;
-			remoteInfo = LYEmptyView;
-		};
-		76A28CF10F6A21E785DBB6EE3D9957B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
-			remoteInfo = MJRefresh;
-		};
-		8662C6E00D6FAA66420D7541BC2C7E21 /* PBXContainerItemProxy */ = {
+		C0639D65F1BA7512EC569429AD15E11F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DD616E46C53BCDAC9933A7FC332972D3;
 			remoteInfo = CXTable;
 		};
-		B859E6571D67AC69389FA4768F4AA710 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
-			remoteInfo = MJRefresh;
-		};
-		DA3FE9390C649195F663013CE390B75E /* PBXContainerItemProxy */ = {
+		D9099DA8B778C30D3100B7DC39AAF7BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C176F2FC508A7F81487945C9F7A21161;
 			remoteInfo = WMZDialog;
 		};
-		E5E68D783802EA7E4C1F2ED1DF775CD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4AA4C7BB776C55F3421BA137B643DD64;
-			remoteInfo = LYEmptyView;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000CD8556C3A94C849CB82524FD3C44B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		02B562716939725D24510429E433C873 /* CXTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXTable-umbrella.h"; sourceTree = "<group>"; };
 		0329ECC787F2C80BBEEC808896A1371C /* LYEmptyBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYEmptyBaseView.m; path = LYEmptyView/LYEmptyBaseView.m; sourceTree = "<group>"; };
 		03CC8BE6CF84B907AF019D94BE6CF34F /* WMZDiaLogBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDiaLogBase.h; path = WMZDialog/WMZDialog/Main/WMZDiaLogBase.h; sourceTree = "<group>"; };
 		04D663B76E5479EE0575795F608D6E89 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
-		064C6C2A9AB71BC23EEEBC7B34FAEDF3 /* CXTable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CXTable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		094CD2887AE30189C497C7A7E6EF196E /* CXTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXTable.debug.xcconfig; sourceTree = "<group>"; };
 		0C02393DAEE2CF3F7E170A2D09DD99ED /* WMZDialogAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialogAnimation.h; path = WMZDialog/WMZDialog/WMZDialogUntils/WMZDialogAnimation.h; sourceTree = "<group>"; };
+		0DEE211AED66468EDCD7E60A0A1AB850 /* CXTable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CXTable-Info.plist"; sourceTree = "<group>"; };
 		0ECBA1A04AA380881F412BE3AE107CBD /* WMZDialogParam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMZDialogParam.m; path = WMZDialog/WMZDialog/Main/WMZDialogParam.m; sourceTree = "<group>"; };
-		0FD029CE8C2E637769D02C8F9B702575 /* CXTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CXTable.modulemap; sourceTree = "<group>"; };
 		133C5983DCB8ED050596218791CF340B /* WMZDialogNormalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMZDialogNormalView.m; path = WMZDialog/WMZDialog/CustomView/WMZDialogNormalView.m; sourceTree = "<group>"; };
 		13DB0F84761516CDADE56CF969D5C4FA /* WMZDialog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WMZDialog; path = WMZDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14203F1808FB448270ED5529C13B46B8 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
-		1601EEBE011D0DF5EAFADF1D62591195 /* CXTable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CXTable-Info.plist"; sourceTree = "<group>"; };
+		14945A00414917288B9D79DAC607ADC1 /* CXTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CXTableViewModel.h; sourceTree = "<group>"; };
 		17ABA8E9218D57574C8A3FA2BAE78A62 /* Pods-CXTable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CXTable_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1966E265FE7A8B7B1CA627B898CBDAD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1B6F99AF3FFF5E1FCCA7B6580E1D872C /* UIView+LYExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYExtension.h"; path = "LYEmptyView/UIView+LYExtension.h"; sourceTree = "<group>"; };
 		1C7B874FD3626F31A393E558D2F85306 /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
+		1F914622A3330C5447A4FC395D56C39E /* CXTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXTable-prefix.pch"; sourceTree = "<group>"; };
 		1F952EFDD8FE9F11F63BB88CBF745FBF /* UICollectionViewLayout+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewLayout+MJRefresh.h"; path = "MJRefresh/UICollectionViewLayout+MJRefresh.h"; sourceTree = "<group>"; };
 		2239D8DC3BC0BA2D21DE4BCABEA55635 /* WMZDialogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialogView.h; path = WMZDialog/WMZDialog/CustomView/WMZDialogView.h; sourceTree = "<group>"; };
 		2264B4B013112CFAD6F4F00FF50B7AAF /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
 		22694F0109108E63FD755FDED26B339E /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		252DDC3446032D226EB530A388E0ACA2 /* Pods-CXTable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXTable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		26BD420DB1C360E676C0E708AC286D56 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CXTable/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		26E2D5739AB3F78FBF2349F1FB0770B2 /* Pods-CXTable_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXTable_Example-Info.plist"; sourceTree = "<group>"; };
 		274BDA70EECD79362757046DC55F3522 /* WMZDialogTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMZDialogTree.m; path = WMZDialog/WMZDialog/WMZDialogUntils/WMZDialogTree.m; sourceTree = "<group>"; };
 		2838483855CD4D932E5543AC392D6C25 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
@@ -223,6 +230,7 @@
 		2E7B48D1F5BE86062D1269924F816EB7 /* Pods-CXTable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXTable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2E8A77567C360B8E57FC6784A05F061E /* LYEmptyBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYEmptyBaseView.h; path = LYEmptyView/LYEmptyBaseView.h; sourceTree = "<group>"; };
 		2EB217638F9CA06C22AF38B3A67E46C0 /* Pods-CXTable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXTable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2ECFC2DA0F5033FEAD4BBA65CE9EDF9C /* CXTableViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CXTableViewModel.m; sourceTree = "<group>"; };
 		2F51825CBF9B6B7DD6A4796BE32CEEFB /* Pods-CXTable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXTable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2FA3E3E3A2B08AD75137BE9C671F1D3D /* WMZDialogParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialogParam.h; path = WMZDialog/WMZDialog/Main/WMZDialogParam.h; sourceTree = "<group>"; };
 		30018AB8746441673BF39680A4B8C00D /* MJRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.release.xcconfig; sourceTree = "<group>"; };
@@ -230,8 +238,10 @@
 		3229CDD8026E9F17BCC33EF5A194A9A7 /* Pods-CXTable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXTable_Tests.modulemap"; sourceTree = "<group>"; };
 		328D2ACCB87ABCF8944F62D43026C312 /* MJRefreshStateTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateTrailer.h; path = MJRefresh/Custom/Trailer/MJRefreshStateTrailer.h; sourceTree = "<group>"; };
 		375295DF8E416D3938B0F3885EBCA9F0 /* UIView+Empty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Empty.h"; path = "LYEmptyView/UIView+Empty.h"; sourceTree = "<group>"; };
+		3BB58591D464A3051E4759E8830ED35A /* CXTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CXTable-dummy.m"; sourceTree = "<group>"; };
 		3DFE25A92AB64F1CEC2D078DFA4B60A4 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
 		3EDF27E52A9451EB110E87CBC231D286 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		40A8552FBF232305006847782529F062 /* CXTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CXTableView.m; sourceTree = "<group>"; };
 		40F3A2DC35D47D9EC35DCC65B1C7E2B7 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
 		41DD6001CBDBBC33C587B74558E41754 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		4451248DEE41371DF20F3B5D5D95FE12 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
@@ -240,16 +250,15 @@
 		466A5DFE398063DD4A3D1D7CE69BE737 /* WMZDialogDateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialogDateView.h; path = WMZDialog/WMZDialog/CustomView/WMZDialogDateView.h; sourceTree = "<group>"; };
 		494C1CDEBE78472F11B035E21CA0E32D /* MJRefreshConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConfig.m; path = MJRefresh/MJRefreshConfig.m; sourceTree = "<group>"; };
 		49F675CB56E86DB536E326E4C9A7661B /* WMZDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMZDialog.modulemap; sourceTree = "<group>"; };
-		4B671327843444ED8571238D8A8B72E5 /* HNTTableView.md */ = {isa = PBXFileReference; includeInIndex = 1; path = HNTTableView.md; sourceTree = "<group>"; };
 		4C6546B3E0E1C26E11BCA4BA480BA774 /* WMZDialogTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialogTree.h; path = WMZDialog/WMZDialog/WMZDialogUntils/WMZDialogTree.h; sourceTree = "<group>"; };
 		4CEFF11DFCCEA84DF390F28AFEE5FF68 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
 		4D787587D9633D77FB5F41D5C2CDE335 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
 		4DB003C27546CDA3580A876AFE1D26E7 /* Pods-CXTable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXTable_Tests-Info.plist"; sourceTree = "<group>"; };
-		50FC021ACBE569AE9654104B248A35DA /* CXTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CXTableView.m; sourceTree = "<group>"; };
-		542C8A3B07633B17C8F27A52B45D5B69 /* CXTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CXTableViewModel.h; sourceTree = "<group>"; };
+		4EFA358CD02A03620342B8625F9925E8 /* CXTable-CXTable */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CXTable-CXTable"; path = CXTable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		573174576C901DF8C45DA5845F98B3BF /* LYEmptyView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYEmptyView-dummy.m"; sourceTree = "<group>"; };
 		582ED2B5112CC459ED4E3F330851CE9B /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
 		58FA676F7ECAA275B9FA0A10FD63B691 /* WMZDialogUntils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMZDialogUntils.m; path = WMZDialog/WMZDialog/WMZDialogUntils/WMZDialogUntils.m; sourceTree = "<group>"; };
+		5A1C81EE41E909F41A08434848BDEC4D /* CXTable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CXTable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5AB9E6D616802EEA738D2E4D6793C6DE /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		5C040AC33E251A4EA09CD1CE8AF97883 /* WMZDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMZDialog-dummy.m"; sourceTree = "<group>"; };
 		5E7D11CB0C97BB0CF2FD3C60944EB9B5 /* DialogCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DialogCell.h; path = WMZDialog/WMZDialog/WMZDialogUntils/DialogCell.h; sourceTree = "<group>"; };
@@ -265,14 +274,15 @@
 		67C9D753C249A31C9EDBD6336A7B30DC /* MJRefreshTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshTrailer.h; path = MJRefresh/Base/MJRefreshTrailer.h; sourceTree = "<group>"; };
 		68A7A11E357A8ADFCAA0615DA40F7BEA /* Pods-CXTable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CXTable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		692C85488ACDE273574E80FF3F6573F2 /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		6AE30067E94DC1C0D540E38A22D866A5 /* ResourceBundle-CXTable-CXTable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CXTable-CXTable-Info.plist"; sourceTree = "<group>"; };
 		6D9739CEE69B9D471AE9CFAFD5FD83A2 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
 		6FAF862B2F71C36C6DBA4DA0D51FC3A7 /* WMZDialogTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialogTable.h; path = WMZDialog/WMZDialog/CustomView/WMZDialogTable.h; sourceTree = "<group>"; };
 		71ADF19DF4C784E09B78258C4967107D /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
 		733BABFB3C18EF63AB8B0AC64C0C59F9 /* WMZDialogSelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMZDialogSelectView.m; path = WMZDialog/WMZDialog/CustomView/WMZDialogSelectView.m; sourceTree = "<group>"; };
-		7430F77B09FA68C5EC2BC77AF6750BDD /* CXTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CXTable-dummy.m"; sourceTree = "<group>"; };
 		74447A143E87AFC78E55A6386C451DCE /* WMZCustomPrototol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZCustomPrototol.h; path = WMZDialog/WMZDialog/CustomViewProtocol/WMZCustomPrototol.h; sourceTree = "<group>"; };
 		7723C2E015A11ABFAE8AEE0EF7771401 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
 		783B382EF5C8042BED105E3C59F70483 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		784F30642A67E411FA2FC22BB8DF4F11 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CXTable/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		7934B683562B69C91B68B5CD1D33263B /* WMZDialog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMZDialog.release.xcconfig; sourceTree = "<group>"; };
 		795757C093813304BF95C2182EE2842E /* WMZDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WMZDialog-Info.plist"; sourceTree = "<group>"; };
 		79879B44F64B132916F6331378498A68 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
@@ -280,36 +290,37 @@
 		7D81E8E8E230ED2B9C2295F31DBA19C6 /* MJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.debug.xcconfig; sourceTree = "<group>"; };
 		7DB80196D2FC063690F760599A390438 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
 		7DE8B60EDC2709539554110EA5D3914A /* WMZDialogMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialogMacro.h; path = WMZDialog/WMZDialog/Main/WMZDialogMacro.h; sourceTree = "<group>"; };
+		7E5921A329877A07BD5E623D76063AC8 /* CXTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CXTableView.h; sourceTree = "<group>"; };
+		7F395D99BDB2B3AE7FA290431002E6AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7F8A4EC21C0AA812D7A5E73293F9A446 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		80725EC6120A216D0FDFCD5233BAAE3F /* UIView+Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Empty.m"; path = "LYEmptyView/UIView+Empty.m"; sourceTree = "<group>"; };
+		827C27471F10B2627BBFAC30E5248DBD /* CXTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXTable.release.xcconfig; sourceTree = "<group>"; };
 		8295F16F7E074646FAC1CD1AA1990144 /* MJRefreshNormalTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalTrailer.m; path = MJRefresh/Custom/Trailer/MJRefreshNormalTrailer.m; sourceTree = "<group>"; };
 		84B1AEDA66812A7883ECE5764EE944DA /* MJRefreshNormalTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalTrailer.h; path = MJRefresh/Custom/Trailer/MJRefreshNormalTrailer.h; sourceTree = "<group>"; };
 		8812E075C0E76486062E04D5E446D015 /* MJRefreshTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshTrailer.m; path = MJRefresh/Base/MJRefreshTrailer.m; sourceTree = "<group>"; };
 		8B3BE22CD89C01BAF1D50B56DBD4BE25 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
 		8EB572BD153547BD9472BDCD579259C9 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
-		90B8914812C0DCDEB2EA50808C1F92E8 /* CXTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXTable-prefix.pch"; sourceTree = "<group>"; };
 		91CC4C820A34A1A96F94DCE1C3827D4C /* DialogCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DialogCell.m; path = WMZDialog/WMZDialog/WMZDialogUntils/DialogCell.m; sourceTree = "<group>"; };
 		91CCDF65407C50F566E1C4CEF63AA9B7 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
 		951384621DF055BC50BBD444A771F7D7 /* WMZDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialog.h; path = WMZDialog/WMZDialog/Main/WMZDialog.h; sourceTree = "<group>"; };
 		996B83EBAD027F950DEC7A1964F3CDB6 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
 		9B9BBBB4E9CF31FAAB0B5A2508365F6C /* Pods-CXTable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXTable_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB5DA7F44B2871910D6C96F6BEA6792 /* empty_page.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = empty_page.png; path = CXTable/Assets/empty_page.png; sourceTree = "<group>"; };
 		9F60D2364909D63C82C162E2AEE21983 /* MJRefreshStateTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateTrailer.m; path = MJRefresh/Custom/Trailer/MJRefreshStateTrailer.m; sourceTree = "<group>"; };
 		9F9D868A36A4959F229601E3D10200BE /* Pods-CXTable_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CXTable_Example"; path = Pods_CXTable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08E51FAC5B0299A3BB865D3985655D1 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
 		A0AE5894707BF4E24FE487A3EBD0D46B /* WMZDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMZDialog.m; path = WMZDialog/WMZDialog/Main/WMZDialog.m; sourceTree = "<group>"; };
+		A2CC957CD787997181542743AE8A01FB /* CXTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXTable.debug.xcconfig; sourceTree = "<group>"; };
 		A3F3AF90B82A5B5B52E93E9D33BAB07F /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		A5FC874C23F8767EB5BBBC8938168262 /* MJRefreshConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConfig.h; path = MJRefresh/MJRefreshConfig.h; sourceTree = "<group>"; };
 		A6F3574B47DE08A32EF5096FF58CAFD1 /* WMZDialogNormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialogNormal.h; path = WMZDialog/WMZDialog/CustomView/WMZDialogNormal.h; sourceTree = "<group>"; };
-		AA8A8488DE2913C5B9029122B552DFE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AB8FAAA3D3681EB197ACC7BF63D188EA /* CXTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXTable.release.xcconfig; sourceTree = "<group>"; };
 		B04F31434DE9AF6C9ACFAC8B0A38BFF8 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 		B1EBBD4E22E63D04361982FFF1F26A1B /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
 		B452E2EBFBAECED734A276C7BC00A1EA /* WMZDialogDateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMZDialogDateView.m; path = WMZDialog/WMZDialog/CustomView/WMZDialogDateView.m; sourceTree = "<group>"; };
 		B5D5A33B267C4CB38D8E419BE94D8EEF /* WMZDialogSelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialogSelectView.h; path = WMZDialog/WMZDialog/CustomView/WMZDialogSelectView.h; sourceTree = "<group>"; };
 		B9CB78B3AC21466C720A86BB5BB03244 /* UIView+LYExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LYExtension.m"; path = "LYEmptyView/UIView+LYExtension.m"; sourceTree = "<group>"; };
 		BDB9A1FFBD251E31A34ADD984D82628A /* LYEmptyView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYEmptyView.release.xcconfig; sourceTree = "<group>"; };
-		BF6D3203FFA658AC9EEFA92DD2A3E0C9 /* empty_page.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = empty_page.png; sourceTree = "<group>"; };
 		C0A8C9CF90C40261FD9FBF5EC953F194 /* WMZDialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMZDialog.debug.xcconfig; sourceTree = "<group>"; };
 		C2299EA18FBA1BF4A1BD6EBEAF1110D7 /* WMZDialogUntils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMZDialogUntils.h; path = WMZDialog/WMZDialog/WMZDialogUntils/WMZDialogUntils.h; sourceTree = "<group>"; };
 		C34F40CDE85F6AFD8C47325CBAC7FAAC /* NSDate+WMZCalendarDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+WMZCalendarDate.m"; path = "WMZDialog/WMZDialog/WMZDialogUntils/NSDate+WMZCalendarDate.m"; sourceTree = "<group>"; };
@@ -317,9 +328,7 @@
 		C830AF6748FB703AD1845497BA4A8894 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		C84ED03E6AEAD144F91C28DF51B20619 /* Pods-CXTable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXTable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8E30C25058BA0073199BE92681F525B /* LYEmptyView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYEmptyView.debug.xcconfig; sourceTree = "<group>"; };
-		C9B67CEA9F6A230533347A55EB20ADCC /* CXTableViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CXTableViewModel.m; sourceTree = "<group>"; };
 		CB751DEA6BE317A44974DB75A1B8B730 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
-		CBF31290D30767770AB3C44C7ABED359 /* CXTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXTable-umbrella.h"; sourceTree = "<group>"; };
 		CDEA64358D88B4E2E74E9F03D0934E47 /* Pods-CXTable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXTable_Example-dummy.m"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D269934AB2F8BACBFFF0909EB5D027FB /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
@@ -332,11 +341,12 @@
 		DF5459FF6B10D90AB273CAE5F173171B /* LYEmptyView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYEmptyView-umbrella.h"; sourceTree = "<group>"; };
 		E15AD12F12E998CE421EE092E21AC360 /* WMZDialogTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMZDialogTable.m; path = WMZDialog/WMZDialog/CustomView/WMZDialogTable.m; sourceTree = "<group>"; };
 		E22A55513F386B9E730B59E8FFC0DD38 /* NSDate+WMZCalendarDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+WMZCalendarDate.h"; path = "WMZDialog/WMZDialog/WMZDialogUntils/NSDate+WMZCalendarDate.h"; sourceTree = "<group>"; };
-		E4524908006B289C7AB489DFFB453A47 /* CXTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CXTableView.h; sourceTree = "<group>"; };
 		E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E593F5295F7B186F4D17EF193A2FCAB2 /* CXTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CXTable.modulemap; sourceTree = "<group>"; };
 		E67A1D8ED1B4327028517ECCF102D0FD /* WMZDialogManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMZDialogManage.m; path = WMZDialog/WMZDialog/Main/WMZDialogManage.m; sourceTree = "<group>"; };
 		E6A593A6F18298E0E477DFCD811C7AA1 /* WMZDialog.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WMZDialog.bundle; path = WMZDialog/WMZDialog/WMZDialog.bundle; sourceTree = "<group>"; };
 		E782A8E35A6C7BBC06D963AB44288DA3 /* WMZDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMZDialog-prefix.pch"; sourceTree = "<group>"; };
+		EA6894BA9D7EF023BE86FDCA38C8F4ED /* HNTTableView.md */ = {isa = PBXFileReference; includeInIndex = 1; path = HNTTableView.md; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EC55FEB5008ED60A6B1A13156A69DF40 /* UICollectionViewLayout+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewLayout+MJRefresh.m"; path = "MJRefresh/UICollectionViewLayout+MJRefresh.m"; sourceTree = "<group>"; };
 		EC7FCD2892831FBD3BB9B9A1FE4B456A /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
@@ -354,6 +364,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0CA3698774ABFD13F087F0AD06E36C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FA8F72CCAD7234870D71085B354B26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		21518D59758E1DA6665205344A6E525F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,36 +380,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4564CFC645A89214AD6551C0EF98E01F /* Frameworks */ = {
+		38CE72D75E1DD7C2098162DD97C80346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABD31516B212AD7009FEDD9E4C3C9758 /* Foundation.framework in Frameworks */,
+				6D00B4FDAA9D42346A721405A71AAB41 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		514B5C36D0C586E3F797E682BFC90365 /* Frameworks */ = {
+		6801C7077B0ABED93DC4BAD83BA6113B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6D9B9A785648235D4C7F28F1B9DFB5 /* Foundation.framework in Frameworks */,
-				3180DA29047695BA717A34D40F30184F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A74FF297C5821BB912416ACE2DA9972B /* Frameworks */ = {
+		B0507546D7E614FBB0F152CA89CD9A54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F67255198EA2A6FF77D324FC6EF970E /* Foundation.framework in Frameworks */,
+				5A5826B0780E1F38C6C58CFCB8B81F65 /* Foundation.framework in Frameworks */,
+				F75BE010BFA177C3DFEB0BF23FF2FB8A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D03C860D5C73480D31E0E3C26C81B3F9 /* Frameworks */ = {
+		C98B119B1EF79EC2805BE05F78CC86AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B915F05A0B6461BA2A6DECC94269E79 /* Foundation.framework in Frameworks */,
+				B04D3A85D67B93DAB57ECD445DE324CD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,15 +429,6 @@
 				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		181AC280683C7535A45CDBCD486EE944 /* image */ = {
-			isa = PBXGroup;
-			children = (
-				BF6D3203FFA658AC9EEFA92DD2A3E0C9 /* empty_page.png */,
-			);
-			name = image;
-			path = image;
 			sourceTree = "<group>";
 		};
 		2FE6F12622D1E97F9239EBB86A5D8CD5 /* Support Files */ = {
@@ -499,6 +507,19 @@
 			path = WMZDialog;
 			sourceTree = "<group>";
 		};
+		4F92BBF89C9804A9C2C8D3C8855D75EC /* baseTable */ = {
+			isa = PBXGroup;
+			children = (
+				7E5921A329877A07BD5E623D76063AC8 /* CXTableView.h */,
+				40A8552FBF232305006847782529F062 /* CXTableView.m */,
+				14945A00414917288B9D79DAC607ADC1 /* CXTableViewModel.h */,
+				2ECFC2DA0F5033FEAD4BBA65CE9EDF9C /* CXTableViewModel.m */,
+				EA6894BA9D7EF023BE86FDCA38C8F4ED /* HNTTableView.md */,
+			);
+			name = baseTable;
+			path = CXTable/Classes/baseTable;
+			sourceTree = "<group>";
+		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -517,19 +538,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5EC3B35B6ED02A4F7FCEC933C034C424 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				45C03662A57AE650D1470B3EC2F3540E /* CXTable */,
-				EEB5224BF1CABA409B3D3760EDDAEA0A /* LYEmptyView */,
-				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */,
-				9F9D868A36A4959F229601E3D10200BE /* Pods-CXTable_Example */,
-				D877A37DECB1BF27CAA04C02650E1508 /* Pods-CXTable_Tests */,
-				13DB0F84761516CDADE56CF969D5C4FA /* WMZDialog */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		60BFE86003C776EE0B6ADFDF268570EC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,18 +546,27 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		7F025B67ADFC28F5232B30F163A257D2 /* baseTable */ = {
+		7DB1678E99F9753468455C336C72AF09 /* CXTable */ = {
 			isa = PBXGroup;
 			children = (
-				E4524908006B289C7AB489DFFB453A47 /* CXTableView.h */,
-				50FC021ACBE569AE9654104B248A35DA /* CXTableView.m */,
-				542C8A3B07633B17C8F27A52B45D5B69 /* CXTableViewModel.h */,
-				C9B67CEA9F6A230533347A55EB20ADCC /* CXTableViewModel.m */,
-				4B671327843444ED8571238D8A8B72E5 /* HNTTableView.md */,
-				181AC280683C7535A45CDBCD486EE944 /* image */,
+				9EB5DA7F44B2871910D6C96F6BEA6792 /* empty_page.png */,
+				784F30642A67E411FA2FC22BB8DF4F11 /* ReplaceMe.m */,
+				4F92BBF89C9804A9C2C8D3C8855D75EC /* baseTable */,
+				947B2ACEE83A63BAB04B079104868548 /* Pod */,
+				A87DF7217BC9A7F1DE993643DA8C3529 /* Support Files */,
 			);
-			name = baseTable;
-			path = CXTable/Classes/baseTable;
+			name = CXTable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		947B2ACEE83A63BAB04B079104868548 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5A1C81EE41E909F41A08434848BDEC4D /* CXTable.podspec */,
+				7F395D99BDB2B3AE7FA290431002E6AA /* LICENSE */,
+				000CD8556C3A94C849CB82524FD3C44B /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		95A5DA642F422DD9DDD276B14811537E /* Pods */ = {
@@ -570,19 +587,28 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		A2DA94DB3A2D08B8C2186C2E6293EBDE /* Support Files */ = {
+		A87DF7217BC9A7F1DE993643DA8C3529 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0FD029CE8C2E637769D02C8F9B702575 /* CXTable.modulemap */,
-				7430F77B09FA68C5EC2BC77AF6750BDD /* CXTable-dummy.m */,
-				1601EEBE011D0DF5EAFADF1D62591195 /* CXTable-Info.plist */,
-				90B8914812C0DCDEB2EA50808C1F92E8 /* CXTable-prefix.pch */,
-				CBF31290D30767770AB3C44C7ABED359 /* CXTable-umbrella.h */,
-				094CD2887AE30189C497C7A7E6EF196E /* CXTable.debug.xcconfig */,
-				AB8FAAA3D3681EB197ACC7BF63D188EA /* CXTable.release.xcconfig */,
+				E593F5295F7B186F4D17EF193A2FCAB2 /* CXTable.modulemap */,
+				3BB58591D464A3051E4759E8830ED35A /* CXTable-dummy.m */,
+				0DEE211AED66468EDCD7E60A0A1AB850 /* CXTable-Info.plist */,
+				1F914622A3330C5447A4FC395D56C39E /* CXTable-prefix.pch */,
+				02B562716939725D24510429E433C873 /* CXTable-umbrella.h */,
+				A2CC957CD787997181542743AE8A01FB /* CXTable.debug.xcconfig */,
+				827C27471F10B2627BBFAC30E5248DBD /* CXTable.release.xcconfig */,
+				6AE30067E94DC1C0D540E38A22D866A5 /* ResourceBundle-CXTable-CXTable-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CXTable";
+			sourceTree = "<group>";
+		};
+		C210D783EBB1DAEEF9B76A2784E66C9D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DB1678E99F9753468455C336C72AF09 /* CXTable */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C6D6A153C2222B135D27BE0CD2EB0890 /* Pods-CXTable_Tests */ = {
@@ -618,22 +644,14 @@
 			path = "Target Support Files/Pods-CXTable_Example";
 			sourceTree = "<group>";
 		};
-		CED1CDFB786001A63FDEC62B1C1320C0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FD92FF545D091EC8AB165779AA5D1E12 /* CXTable */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CED1CDFB786001A63FDEC62B1C1320C0 /* Development Pods */,
+				C210D783EBB1DAEEF9B76A2784E66C9D /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				95A5DA642F422DD9DDD276B14811537E /* Pods */,
-				5EC3B35B6ED02A4F7FCEC933C034C424 /* Products */,
+				DD0DF385AE7AFA725576C10BBC4191EB /* Products */,
 				5D7A194C3A03F31FCB148750E09E1536 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -656,14 +674,18 @@
 			path = LYEmptyView;
 			sourceTree = "<group>";
 		};
-		D2431844D180E9A91C9F8ECB0C20D1E4 /* Pod */ = {
+		DD0DF385AE7AFA725576C10BBC4191EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				064C6C2A9AB71BC23EEEBC7B34FAEDF3 /* CXTable.podspec */,
-				1966E265FE7A8B7B1CA627B898CBDAD5 /* LICENSE */,
-				AA8A8488DE2913C5B9029122B552DFE2 /* README.md */,
+				45C03662A57AE650D1470B3EC2F3540E /* CXTable */,
+				4EFA358CD02A03620342B8625F9925E8 /* CXTable-CXTable */,
+				EEB5224BF1CABA409B3D3760EDDAEA0A /* LYEmptyView */,
+				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */,
+				9F9D868A36A4959F229601E3D10200BE /* Pods-CXTable_Example */,
+				D877A37DECB1BF27CAA04C02650E1508 /* Pods-CXTable_Tests */,
+				13DB0F84761516CDADE56CF969D5C4FA /* WMZDialog */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E16AA9C9902E2254F7E87762E2CF80C0 /* Support Files */ = {
@@ -740,89 +762,90 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
-		FD92FF545D091EC8AB165779AA5D1E12 /* CXTable */ = {
-			isa = PBXGroup;
-			children = (
-				26BD420DB1C360E676C0E708AC286D56 /* ReplaceMe.m */,
-				7F025B67ADFC28F5232B30F163A257D2 /* baseTable */,
-				D2431844D180E9A91C9F8ECB0C20D1E4 /* Pod */,
-				A2DA94DB3A2D08B8C2186C2E6293EBDE /* Support Files */,
-			);
-			name = CXTable;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A67A251E1454955C229C1F9FD2D7A06 /* Headers */ = {
+		12B7C8ED3951C25954FA1A77E4C20D40 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628A6562E09A8562FE6F43CBAD419859 /* CXTable-umbrella.h in Headers */,
-				3588049ADB3814F61EF89794C8B8F234 /* CXTableView.h in Headers */,
-				60EE6EBA9CCABC85643A19B40ADE2AF4 /* CXTableViewModel.h in Headers */,
+				43D97A7CD1A68FEBF6A4110DC42DD9A3 /* MJRefresh.h in Headers */,
+				2C3A70AD3B9FE36766EF7D7DB8AB4B10 /* MJRefresh-umbrella.h in Headers */,
+				C817D8B0232C8D62D3D2378F29FF0CC2 /* MJRefreshAutoFooter.h in Headers */,
+				EFA7839D1BA8A7A23D0497ABC5F89793 /* MJRefreshAutoGifFooter.h in Headers */,
+				34E8EEC48AA8466D495A088520698148 /* MJRefreshAutoNormalFooter.h in Headers */,
+				14A5445F7CBD52A50406059B7EBDB054 /* MJRefreshAutoStateFooter.h in Headers */,
+				BA68EF145D1369A0EBDB709CF23A08AC /* MJRefreshBackFooter.h in Headers */,
+				1EA2DE2EE724EC14FFA011F83556E4A9 /* MJRefreshBackGifFooter.h in Headers */,
+				E286EB4003E86FBBC8ECFC0ABED044E4 /* MJRefreshBackNormalFooter.h in Headers */,
+				AF8908D8F3C6107775D8C7587A6A6493 /* MJRefreshBackStateFooter.h in Headers */,
+				BA4E7E9638D418A9C93169AA7D27483D /* MJRefreshComponent.h in Headers */,
+				5EB349DB025EA1A892F8DFDECD143688 /* MJRefreshConfig.h in Headers */,
+				60DB4E91319156CC8852B255AC112978 /* MJRefreshConst.h in Headers */,
+				19BC22F7C6FABD430B806784ED66B50F /* MJRefreshFooter.h in Headers */,
+				8544CE1FD8B22F578EAC1772A154E4E0 /* MJRefreshGifHeader.h in Headers */,
+				EDA921D8607B5DDC605DED6770B7A604 /* MJRefreshHeader.h in Headers */,
+				B0CCF6192EC4E5E84DCD6D34FFB82009 /* MJRefreshNormalHeader.h in Headers */,
+				BEDC1965C03BA024DC30831BD0CE0B3C /* MJRefreshNormalTrailer.h in Headers */,
+				971AC9270E5415270D77736D62D96716 /* MJRefreshStateHeader.h in Headers */,
+				148A05E6580690065CBE4A95BB7F2035 /* MJRefreshStateTrailer.h in Headers */,
+				8C823DF331EB11A5A95C549D646A50CD /* MJRefreshTrailer.h in Headers */,
+				19A8F2EEF6C366C0E849825BF4F0A7DD /* NSBundle+MJRefresh.h in Headers */,
+				E0B4ED56644A4497FCD5296721F87EC1 /* UICollectionViewLayout+MJRefresh.h in Headers */,
+				5F281A6A95F737AF81184D6F5E00DB89 /* UIScrollView+MJExtension.h in Headers */,
+				B388B50ED415EA69C2C1363D4D0EC4CE /* UIScrollView+MJRefresh.h in Headers */,
+				20D5E4FA7A93038564A3A1B3BE951C17 /* UIView+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48C7233B58BD4B5C4FEAAB31E20D2AC7 /* Headers */ = {
+		5A20FB169004E678852A58C8D77C3542 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				820F4B644BB3C53E3C5579C2F24BF13A /* MJRefresh.h in Headers */,
-				D121464DB10A9C74E88BF6207F37320B /* MJRefresh-umbrella.h in Headers */,
-				1148931632149688C1712959B85163B2 /* MJRefreshAutoFooter.h in Headers */,
-				343AD1C0BF49AF80C04FAC650690BD72 /* MJRefreshAutoGifFooter.h in Headers */,
-				77F351F51B71B73DBD96A92E35D6331A /* MJRefreshAutoNormalFooter.h in Headers */,
-				607FA06D32E79044BAC9DAA838CE6CC6 /* MJRefreshAutoStateFooter.h in Headers */,
-				9D723702FFA913AB1E390AF6BD761AB4 /* MJRefreshBackFooter.h in Headers */,
-				525D3A5700E9D167466D4E131F362A3C /* MJRefreshBackGifFooter.h in Headers */,
-				4C39A3506379BDC477D3DBDC7990986D /* MJRefreshBackNormalFooter.h in Headers */,
-				F9B9073D89D528A85E6982C7AF2631E2 /* MJRefreshBackStateFooter.h in Headers */,
-				13947B3F9A704BB53BC78CEB91F1062F /* MJRefreshComponent.h in Headers */,
-				5973D19ADBB613D938E7D48D08ED5CA4 /* MJRefreshConfig.h in Headers */,
-				0ED9B317EB6323F4DF346E10E16108A8 /* MJRefreshConst.h in Headers */,
-				5AA6D89FFE81F1FDBC13B006BC96C9D1 /* MJRefreshFooter.h in Headers */,
-				26A693681956E59BDB71FCDE573E55AA /* MJRefreshGifHeader.h in Headers */,
-				3C9E014AFEA56F048D317F8109864E77 /* MJRefreshHeader.h in Headers */,
-				E3495E55D557D0BFEAC98E6B6B554498 /* MJRefreshNormalHeader.h in Headers */,
-				EC91AD83769F7FB2E86B8628C87F962A /* MJRefreshNormalTrailer.h in Headers */,
-				9EB899A5955EC6C8597B83E1DBA5F237 /* MJRefreshStateHeader.h in Headers */,
-				078B5146D0FEF8496AE8FE77733BE8CE /* MJRefreshStateTrailer.h in Headers */,
-				B23939136CEA428C1E68AAD3BF7E84D1 /* MJRefreshTrailer.h in Headers */,
-				3327E57FD463997C5EAD29E943170B19 /* NSBundle+MJRefresh.h in Headers */,
-				B618DD64CB0693B73686C8647CFA0C09 /* UICollectionViewLayout+MJRefresh.h in Headers */,
-				DAD4AA9F05D311165EE5AC6212273677 /* UIScrollView+MJExtension.h in Headers */,
-				081DEF9C2A44642D039C506FD486544A /* UIScrollView+MJRefresh.h in Headers */,
-				4D3DE38A8F7D11229619D0103094F54F /* UIView+MJExtension.h in Headers */,
+				09374CE5C86A56F01DC9FA32F4C0FD35 /* CXTable-umbrella.h in Headers */,
+				F11A4D8705DD3CBA0376537139EE2129 /* CXTableView.h in Headers */,
+				F51D2A19F67439BE13B8EDBD996830A4 /* CXTableViewModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75255FB26B5192872CC23082C1D0203B /* Headers */ = {
+		69C8AA702DD92D1DEC893FF843BD9D79 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C03B69AA2E5D38BCC14D321214A68384 /* DialogCell.h in Headers */,
-				A4DCBF5DB8C83383ADC0F2CEF506B76A /* NSDate+WMZCalendarDate.h in Headers */,
-				C9F74408A67DEAF9044549AB51BCE2B3 /* WMZCustomPrototol.h in Headers */,
-				20D1FAB23E8106D58CC89D9A57E70C0A /* WMZDialog.h in Headers */,
-				72066C37AC3886E9BD0E73B46697BD23 /* WMZDialog-umbrella.h in Headers */,
-				F18A907373EDBF7AE895587541069E9A /* WMZDialogAnimation.h in Headers */,
-				CB88A34FE6765C1B155813002638E45C /* WMZDiaLogBase.h in Headers */,
-				2A85EB696FAD918AB758506B58801F51 /* WMZDialogDateView.h in Headers */,
-				D57DDBDF5E0D9728A7230576ACFB09DC /* WMZDialogEditView.h in Headers */,
-				31735ADA41B8E1B37EE7B29884309085 /* WMZDialogMacro.h in Headers */,
-				7836E23CFDA411BD65B56E03F8DD78BA /* WMZDialogManage.h in Headers */,
-				B4086EE7344B80C8EEE1CDA5DAFE6281 /* WMZDialogNormal.h in Headers */,
-				46569840EC88BD468EFEC072EACFB106 /* WMZDialogNormalProtocol.h in Headers */,
-				308103F31A55B52EB07FB9FF9F033117 /* WMZDialogNormalView.h in Headers */,
-				7656878EA966524B98F728130BA4F26E /* WMZDialogParam.h in Headers */,
-				D6C6D196DFA84576D428A1E895B1D27B /* WMZDialogSelectView.h in Headers */,
-				034736B8B6E81BC5984F892D0319800E /* WMZDialogTable.h in Headers */,
-				CAA0206D0D09E0C4142027488BB91811 /* WMZDialogTableProtocol.h in Headers */,
-				B9D5A34D95690EBA0CC01C9072F53600 /* WMZDialogTree.h in Headers */,
-				1D831BBA4DFC249B7CD194B5FE2ACF5D /* WMZDialogUntils.h in Headers */,
-				55A75E10A982A69332F69F4DAF5D902B /* WMZDialogView.h in Headers */,
+				8C6BA0942582B7D1C305FB618277E1EB /* LYEmptyBaseView.h in Headers */,
+				3B57E0ED40853051509CBD093FD6CAFC /* LYEmptyView.h in Headers */,
+				F0F4E5AC1E33DC52055852340E6525A6 /* LYEmptyView-umbrella.h in Headers */,
+				81DF7219F3C903157C24060E32254A63 /* LYEmptyViewHeader.h in Headers */,
+				A9498E9CFB3A84C5D5934703B1240FFE /* UIView+Empty.h in Headers */,
+				E2E4F18616AE77FC865989F77C2EFFEB /* UIView+LYExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8318EDFB6327FBA957759367AB4BB96B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB4257566D72C9423BC126B9D30C1FF /* DialogCell.h in Headers */,
+				F369141780AB9163558D939E3B37106B /* NSDate+WMZCalendarDate.h in Headers */,
+				794B810D3DC4AF41D7F10B0693E3D9BD /* WMZCustomPrototol.h in Headers */,
+				54E60BA5C2C90266415DADD01A182388 /* WMZDialog.h in Headers */,
+				9FFD017E01CB3D56B9B58CC5E3197873 /* WMZDialog-umbrella.h in Headers */,
+				62ABA21BB48B56B42D32AC5E56DBD950 /* WMZDialogAnimation.h in Headers */,
+				934E352E6E33EEEE1FB1349EA54939F1 /* WMZDiaLogBase.h in Headers */,
+				6E2FBC1C827FB9ED08305B4500EAD1CC /* WMZDialogDateView.h in Headers */,
+				DF2F5C8BE42335A66E109F84515FBB47 /* WMZDialogEditView.h in Headers */,
+				04D9ED7CB4EC08BEE5AF7C8E3F1B3C54 /* WMZDialogMacro.h in Headers */,
+				F7865E96DB95D4F27E0DEECB62B51060 /* WMZDialogManage.h in Headers */,
+				722D8FB49B0A79DBB0BD7BF7B332D344 /* WMZDialogNormal.h in Headers */,
+				8FFE3CDD75A15D740E6982851A2C251A /* WMZDialogNormalProtocol.h in Headers */,
+				2B04E5746D0BC6D35801C66CA564CA65 /* WMZDialogNormalView.h in Headers */,
+				7D579D222C8DBABDC920F4BED567DF02 /* WMZDialogParam.h in Headers */,
+				FD369F66A6ED20CAF4271DA588529702 /* WMZDialogSelectView.h in Headers */,
+				E5FCCBE31AB0D460DA944193614581B6 /* WMZDialogTable.h in Headers */,
+				4318B13F134FEEB04AA7BEBDE8679ED8 /* WMZDialogTableProtocol.h in Headers */,
+				B835236432E42EAB99D0D906C46606D5 /* WMZDialogTree.h in Headers */,
+				90179F4DD1709143D193A3C8836E9F92 /* WMZDialogUntils.h in Headers */,
+				3199C34A16C7AD2CC2A34CE7054338E2 /* WMZDialogView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,19 +854,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B36D75F8443150F81A52FA301189CC /* Pods-CXTable_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B100A5D1B5E761F064D6B4A387AD8689 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				516E3B540354BA6D06BCE3BC1C8B4734 /* LYEmptyBaseView.h in Headers */,
-				2BFF8ED17FDA8F16911D6771354D5E60 /* LYEmptyView.h in Headers */,
-				B751655B5E204784DDD7157AFCB5FFE0 /* LYEmptyView-umbrella.h in Headers */,
-				A312BCDD0732D1375C4048C8B75F98C4 /* LYEmptyViewHeader.h in Headers */,
-				4A129352ED5B4FD228111F4449612D89 /* UIView+Empty.h in Headers */,
-				C9C06523D8EDB590A14F92AADE11E944 /* UIView+LYExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -870,10 +880,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				BBF056247F67D2032A5C2F4B5393D9CC /* PBXTargetDependency */,
-				B80AAB08DEF81AEC6D4BF21B500BC40A /* PBXTargetDependency */,
-				F5FEDF3D4B44C42FC053A7F2464CF49C /* PBXTargetDependency */,
-				DF8CF79C1C8C7EB2704208C3D063F598 /* PBXTargetDependency */,
+				BCA701843A4D8E39F6B1C44516B303AF /* PBXTargetDependency */,
+				A03370B799545BE863C1D3BE33D12BCE /* PBXTargetDependency */,
+				16A6EDD12F4AA05F9780A78289B1A75A /* PBXTargetDependency */,
+				5A4B7C9FBFCF9FB7E4F70D0630A82772 /* PBXTargetDependency */,
 			);
 			name = "Pods-CXTable_Example";
 			productName = Pods_CXTable_Example;
@@ -892,7 +902,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				31D34E03FF8C514C8A71DE1A4A2768BE /* PBXTargetDependency */,
+				20B3A30627DECD6B5216317826B2B88B /* PBXTargetDependency */,
 			);
 			name = "Pods-CXTable_Tests";
 			productName = Pods_CXTable_Tests;
@@ -901,12 +911,12 @@
 		};
 		4AA4C7BB776C55F3421BA137B643DD64 /* LYEmptyView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1332EC6AF1A86E8C7923E4A72A0250BE /* Build configuration list for PBXNativeTarget "LYEmptyView" */;
+			buildConfigurationList = 6D794734781E8F30712A0F6E7773BB52 /* Build configuration list for PBXNativeTarget "LYEmptyView" */;
 			buildPhases = (
-				B100A5D1B5E761F064D6B4A387AD8689 /* Headers */,
-				AA4500B0652039C25A7A0737D42A0351 /* Sources */,
-				A74FF297C5821BB912416ACE2DA9972B /* Frameworks */,
-				7888231EE45EDC3B1655117A1AB77E75 /* Resources */,
+				69C8AA702DD92D1DEC893FF843BD9D79 /* Headers */,
+				E260DDBBB81B1AC06EB9403248873B18 /* Sources */,
+				C98B119B1EF79EC2805BE05F78CC86AC /* Frameworks */,
+				7CD0652B7035F02A7BE2E39B17130791 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -917,14 +927,31 @@
 			productReference = EEB5224BF1CABA409B3D3760EDDAEA0A /* LYEmptyView */;
 			productType = "com.apple.product-type.framework";
 		};
+		4B0F395BFD4408316DD5886F22CB1BD1 /* CXTable-CXTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5774867CD42B4771C7BE15882A8C831 /* Build configuration list for PBXNativeTarget "CXTable-CXTable" */;
+			buildPhases = (
+				958F1DF35F986FB68B0273CC63DD71B4 /* Sources */,
+				6801C7077B0ABED93DC4BAD83BA6113B /* Frameworks */,
+				D037D9535104CA19E96CE345C04466C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CXTable-CXTable";
+			productName = CXTable;
+			productReference = 4EFA358CD02A03620342B8625F9925E8 /* CXTable-CXTable */;
+			productType = "com.apple.product-type.bundle";
+		};
 		6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 303195D66082B5DEEF8F19B816F4994D /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildConfigurationList = 838B315EE21FC442747977B6D72D84AA /* Build configuration list for PBXNativeTarget "MJRefresh" */;
 			buildPhases = (
-				48C7233B58BD4B5C4FEAAB31E20D2AC7 /* Headers */,
-				3E9743B46FF88E62159D14555005A670 /* Sources */,
-				D03C860D5C73480D31E0E3C26C81B3F9 /* Frameworks */,
-				6B298BCB9F5698D7E18CD8640983B7E1 /* Resources */,
+				12B7C8ED3951C25954FA1A77E4C20D40 /* Headers */,
+				28E2CC765E089F689451EA5EB2B080E5 /* Sources */,
+				38CE72D75E1DD7C2098162DD97C80346 /* Frameworks */,
+				BED422A94313E7C4ACD628381F01306F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -937,12 +964,12 @@
 		};
 		C176F2FC508A7F81487945C9F7A21161 /* WMZDialog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE8FF18A1E4BA9B61C5C84D7C04FBE8A /* Build configuration list for PBXNativeTarget "WMZDialog" */;
+			buildConfigurationList = B105739AA3758A93F193BFFB577305F1 /* Build configuration list for PBXNativeTarget "WMZDialog" */;
 			buildPhases = (
-				75255FB26B5192872CC23082C1D0203B /* Headers */,
-				18998EEC1960DCBD0D987F582611FF07 /* Sources */,
-				514B5C36D0C586E3F797E682BFC90365 /* Frameworks */,
-				DB220A105DCEFF469CA096A7E668436C /* Resources */,
+				8318EDFB6327FBA957759367AB4BB96B /* Headers */,
+				0E7211AAD3BA9072A08B9810A3DF9147 /* Sources */,
+				B0507546D7E614FBB0F152CA89CD9A54 /* Frameworks */,
+				E8B16C91A9431FF499FC86AE24EF185A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -955,19 +982,20 @@
 		};
 		DD616E46C53BCDAC9933A7FC332972D3 /* CXTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5C520B2E47228BEB27D672F6DFA8164 /* Build configuration list for PBXNativeTarget "CXTable" */;
+			buildConfigurationList = 3BE520ED8C3FB4781A5748682E82751F /* Build configuration list for PBXNativeTarget "CXTable" */;
 			buildPhases = (
-				0A67A251E1454955C229C1F9FD2D7A06 /* Headers */,
-				6E0793636CA025B131F58C890581C6E3 /* Sources */,
-				4564CFC645A89214AD6551C0EF98E01F /* Frameworks */,
-				B07AEEF4993A21BDD30D152D95C8DDC6 /* Resources */,
+				5A20FB169004E678852A58C8D77C3542 /* Headers */,
+				FFFFB51CB0B2071D278CC6A66178CA52 /* Sources */,
+				0CA3698774ABFD13F087F0AD06E36C1F /* Frameworks */,
+				CE9B83B056193814EBB2EF4F3621D881 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2263203B919AF57FB20B97D55759585C /* PBXTargetDependency */,
-				CF34BBA27B9D05D1C3D74AF5FD098259 /* PBXTargetDependency */,
-				98024E24BF298F066F5D74176F596519 /* PBXTargetDependency */,
+				580095CB561970000F686D1BB6506980 /* PBXTargetDependency */,
+				382CF3B12EBDBD78761BA0D547A79B73 /* PBXTargetDependency */,
+				C0DE6A7802C91155152AD89238AA4E44 /* PBXTargetDependency */,
+				23851440F255154F1FB11AA9C6227FFB /* PBXTargetDependency */,
 			);
 			name = CXTable;
 			productName = CXTable;
@@ -992,11 +1020,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5EC3B35B6ED02A4F7FCEC933C034C424 /* Products */;
+			productRefGroup = DD0DF385AE7AFA725576C10BBC4191EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DD616E46C53BCDAC9933A7FC332972D3 /* CXTable */,
+				4B0F395BFD4408316DD5886F22CB1BD1 /* CXTable-CXTable */,
 				4AA4C7BB776C55F3421BA137B643DD64 /* LYEmptyView */,
 				6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */,
 				0D07496F5EB74BE2EE4BF40B3F0F1032 /* Pods-CXTable_Example */,
@@ -1014,21 +1043,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B298BCB9F5698D7E18CD8640983B7E1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4659190F1A15FCE86674790672E6B01F /* MJRefresh.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7888231EE45EDC3B1655117A1AB77E75 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		79844C315F931BF43F93F5B07A6E6326 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1036,18 +1050,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B07AEEF4993A21BDD30D152D95C8DDC6 /* Resources */ = {
+		7CD0652B7035F02A7BE2E39B17130791 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB220A105DCEFF469CA096A7E668436C /* Resources */ = {
+		BED422A94313E7C4ACD628381F01306F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38B97FD51933E6E94472E2F177DF2D43 /* WMZDialog.bundle in Resources */,
+				1968128E98730EEB6B6F40537F185EC9 /* MJRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9B83B056193814EBB2EF4F3621D881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3E062476F957DBBFB46D7F03D46D9B /* CXTable-CXTable in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D037D9535104CA19E96CE345C04466C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C2C51547DB6E3C398437BEECB236BE /* empty_page.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B16C91A9431FF499FC86AE24EF185A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D34AB08DE29E950519EF1C868A536B /* WMZDialog.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,84 +1100,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18998EEC1960DCBD0D987F582611FF07 /* Sources */ = {
+		0E7211AAD3BA9072A08B9810A3DF9147 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB00514696166A97C7A39BC6C970AEB /* DialogCell.m in Sources */,
-				11BFF11D885A6E4CB1E856B26917854C /* NSDate+WMZCalendarDate.m in Sources */,
-				78AB6E45E204A517665049C0F3AE14CB /* WMZDialog.m in Sources */,
-				C4D3A67887699E9C63BABCF88B8F911B /* WMZDialog-dummy.m in Sources */,
-				41B18D671F3227FECEB1BE157181C2D8 /* WMZDialogAnimation.m in Sources */,
-				6011F5B73DFA4D75DB35888DBBB5F238 /* WMZDiaLogBase.m in Sources */,
-				97EEACCCBB4F57E6B9D6F504FB390C17 /* WMZDialogDateView.m in Sources */,
-				4367F6C94F8DBA211B0C27E091C5C9AB /* WMZDialogEditView.m in Sources */,
-				9B24670A1109FF1792A7F1316CF52AC4 /* WMZDialogManage.m in Sources */,
-				040AD76B5A69C4B23E2081D666D3F145 /* WMZDialogNormal.m in Sources */,
-				1B7E88717DB63F5A0460F12EE8EC680D /* WMZDialogNormalView.m in Sources */,
-				607307BE981944930B4A54CF106CBF0F /* WMZDialogParam.m in Sources */,
-				50D944A41779115B911EEC56130E84F7 /* WMZDialogSelectView.m in Sources */,
-				A26104D835AB783EF3882B32688584BD /* WMZDialogTable.m in Sources */,
-				6FAB6B956E7421247A364E7DE67F3A75 /* WMZDialogTree.m in Sources */,
-				B8CC3B3AD2D34A41F293878B58995792 /* WMZDialogUntils.m in Sources */,
-				FC370AA8EF4C3198D214FA40E09C8011 /* WMZDialogView.m in Sources */,
+				4AF0E38266D767C12077FA587BCD233B /* DialogCell.m in Sources */,
+				B63AC72620C22E62FABEB3D10921C244 /* NSDate+WMZCalendarDate.m in Sources */,
+				31781DE42B39A6AADC0BF8319198CE29 /* WMZDialog.m in Sources */,
+				3664EAC3A24F05F0563A59B934C0D022 /* WMZDialog-dummy.m in Sources */,
+				20E8976045CF23F0A77817BEA5138BA6 /* WMZDialogAnimation.m in Sources */,
+				5ACE0F84E5AF2D8659AB687B9FA821B7 /* WMZDiaLogBase.m in Sources */,
+				C85BD2806A7A5792FA37CB41D0E72C18 /* WMZDialogDateView.m in Sources */,
+				94143F9B31F58709281FF70CEC9DEB29 /* WMZDialogEditView.m in Sources */,
+				3F696CEC072EF16F2CF7914F11F002EC /* WMZDialogManage.m in Sources */,
+				04CBF79B3D9ED835B9C4DCAFB72FD18A /* WMZDialogNormal.m in Sources */,
+				C25BD43A3A3233D2F01875922B83EFDA /* WMZDialogNormalView.m in Sources */,
+				3082B5F4DF6A78FE76607260122C66A6 /* WMZDialogParam.m in Sources */,
+				C9B43DECB93F124BC1D3F793C4E04D0B /* WMZDialogSelectView.m in Sources */,
+				4EBEBB6B129149B88ABD79FF5D135A66 /* WMZDialogTable.m in Sources */,
+				B316B1A4826B41A275BFA32BF343224E /* WMZDialogTree.m in Sources */,
+				FB4DCBFCA95BA970405286B45A03E7D2 /* WMZDialogUntils.m in Sources */,
+				B34D0C7221FF6DC891BD64286326009E /* WMZDialogView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E9743B46FF88E62159D14555005A670 /* Sources */ = {
+		28E2CC765E089F689451EA5EB2B080E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53727184DF7C311C9DDFF4E465029F64 /* MJRefresh-dummy.m in Sources */,
-				EAABE3A7A4E7712E828CAF9E25D514EA /* MJRefreshAutoFooter.m in Sources */,
-				1D99334E7DF3B7C248AC464AAF6AD1EC /* MJRefreshAutoGifFooter.m in Sources */,
-				19D2714CCB29BEB16869C7C0C6B85B8D /* MJRefreshAutoNormalFooter.m in Sources */,
-				E75DE383840F52FDD1B3DE23AF1DE184 /* MJRefreshAutoStateFooter.m in Sources */,
-				8F30A682E30EFA870730C982454DAECB /* MJRefreshBackFooter.m in Sources */,
-				5CDC13859167C83007112EF4A17AED24 /* MJRefreshBackGifFooter.m in Sources */,
-				345A6C612C72F0D18C708A13D92CACD8 /* MJRefreshBackNormalFooter.m in Sources */,
-				C02F09E64AA474118CD11A311875526B /* MJRefreshBackStateFooter.m in Sources */,
-				E19E469548EE1606F00587E1D131AA8C /* MJRefreshComponent.m in Sources */,
-				62DB6B1A71BBDD180273C16DB730B3A2 /* MJRefreshConfig.m in Sources */,
-				76F5FFD1955561DC628C4133D765C5A5 /* MJRefreshConst.m in Sources */,
-				8F438F967F17A4B40CB6FE0757C5EAE2 /* MJRefreshFooter.m in Sources */,
-				AAA990ADFECADC98646C3ED6CC1C396C /* MJRefreshGifHeader.m in Sources */,
-				D86C6DF99FA5FB17EA1D23401A8C8792 /* MJRefreshHeader.m in Sources */,
-				511A8F46A1596AAECD1B236A30F95923 /* MJRefreshNormalHeader.m in Sources */,
-				59659B0EF45F035A097B3A3EB5D8433F /* MJRefreshNormalTrailer.m in Sources */,
-				5830DCEBF3BA1F6E74D44E2AA2AA5325 /* MJRefreshStateHeader.m in Sources */,
-				EA3FB42F7FF2E4AAB837BEBC834E4162 /* MJRefreshStateTrailer.m in Sources */,
-				B6052C2EF2D4EB65D5A75EA9F2091765 /* MJRefreshTrailer.m in Sources */,
-				199B9C38992C9D1DDD3C1F5C2685B2DF /* NSBundle+MJRefresh.m in Sources */,
-				EE94F81D283F2495D6A7220A105BFE53 /* UICollectionViewLayout+MJRefresh.m in Sources */,
-				CAC069558D31344938F1B26142BB449B /* UIScrollView+MJExtension.m in Sources */,
-				686500E3713E2D0E6759E76B5E086D6A /* UIScrollView+MJRefresh.m in Sources */,
-				65A829ED2E14FDB634A47B7160EAA682 /* UIView+MJExtension.m in Sources */,
+				295CB6A36B84B574D7F4119A71178E9B /* MJRefresh-dummy.m in Sources */,
+				1CB6934E4BE2D0DC780614E3F885F040 /* MJRefreshAutoFooter.m in Sources */,
+				2A63BF71AA8E3A15191127C67E8C267F /* MJRefreshAutoGifFooter.m in Sources */,
+				9596122DD912DCC4821D26B1B6C7CFED /* MJRefreshAutoNormalFooter.m in Sources */,
+				9193D1A90B7E1453E0FBD26CFAF6CDED /* MJRefreshAutoStateFooter.m in Sources */,
+				D3006571F1F4F5B5430AF3A6411819ED /* MJRefreshBackFooter.m in Sources */,
+				400FA32BDF4D7309661B21C63AD51DCB /* MJRefreshBackGifFooter.m in Sources */,
+				6105F3527749886E2F2B045AEEFAD758 /* MJRefreshBackNormalFooter.m in Sources */,
+				BD9CDC8ED577E1F8EAE1D7AAB1686706 /* MJRefreshBackStateFooter.m in Sources */,
+				0C85C02094D2F1C53B92FDF47679FFFE /* MJRefreshComponent.m in Sources */,
+				5178303F1D28F43E6ACB425CA8C62CB2 /* MJRefreshConfig.m in Sources */,
+				CDC581BEC723CAFB705E926CD53B899C /* MJRefreshConst.m in Sources */,
+				7ADF27A57BD237B3CB36641C1749E7A3 /* MJRefreshFooter.m in Sources */,
+				F769205AFF5CBCCE01DB7350493B6A6D /* MJRefreshGifHeader.m in Sources */,
+				DEA274D8B738A19C8603B3EC08B645B6 /* MJRefreshHeader.m in Sources */,
+				394CA3C47C7A95DE6A43BB1FE5448963 /* MJRefreshNormalHeader.m in Sources */,
+				2CD0ED719994AEBDF2D6F7FBC639DB82 /* MJRefreshNormalTrailer.m in Sources */,
+				33FBBC8B647A5073F867E578A004D9A0 /* MJRefreshStateHeader.m in Sources */,
+				DB044E875D2337B8B9A1BD1E6B5A7DBC /* MJRefreshStateTrailer.m in Sources */,
+				09B84B2CFC200D7E4B9CA02989A81112 /* MJRefreshTrailer.m in Sources */,
+				DE87C16AE2F24A95EE424F1FEBBDCBFE /* NSBundle+MJRefresh.m in Sources */,
+				DEADBA22761AD687CC829B6794E63874 /* UICollectionViewLayout+MJRefresh.m in Sources */,
+				ECB58F6D44FB1783F37E6C93E8579932 /* UIScrollView+MJExtension.m in Sources */,
+				FC28B6A571A8D160062A99CC5442EC24 /* UIScrollView+MJRefresh.m in Sources */,
+				02C17F0350E573EF580E8679ACBFC1A5 /* UIView+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E0793636CA025B131F58C890581C6E3 /* Sources */ = {
+		958F1DF35F986FB68B0273CC63DD71B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4009E26CB4E8EF9F39DE9A1CCE31112 /* CXTable-dummy.m in Sources */,
-				3364395153742B4885F55951DDE78C1A /* CXTableView.m in Sources */,
-				062B60DD634ED15D4DDAD511C7C79485 /* CXTableViewModel.m in Sources */,
-				48DC94D7E1701FD89B50D5006059BA8C /* empty_page.png in Sources */,
-				7372A14A16D529B77050DC689E506C63 /* HNTTableView.md in Sources */,
-				2A60727F3D8CAD1D6EEE12DD2E008920 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA4500B0652039C25A7A0737D42A0351 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFE1B0B0D61873CB723CF9A06A235623 /* LYEmptyBaseView.m in Sources */,
-				34F97204FB2BB8DA6A30A4C9DACFB50C /* LYEmptyView.m in Sources */,
-				4A06F0FE94C4DE1D6A46678BDCADDCDF /* LYEmptyView-dummy.m in Sources */,
-				9A09F546AF476CD5EA65D309E6750BD4 /* UIView+Empty.m in Sources */,
-				5630CB642F374AB1171C57B628D5D043 /* UIView+LYExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1151,65 +1171,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E260DDBBB81B1AC06EB9403248873B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0906ADA4BEC22C0EA91C1367EAE519AD /* LYEmptyBaseView.m in Sources */,
+				A677EE15BF7832588FF28146783FC985 /* LYEmptyView.m in Sources */,
+				738DB34543DA68123872A0ADBD2D2714 /* LYEmptyView-dummy.m in Sources */,
+				4BE961F318B34BB25EA27DA46B1C5792 /* UIView+Empty.m in Sources */,
+				FD6867D32145F4CE02AD9B813A1AB66B /* UIView+LYExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFFB51CB0B2071D278CC6A66178CA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BF2C442657DADFDE1136601D705680 /* CXTable-dummy.m in Sources */,
+				575FD7551ABF6F9C4B193CE8DCD373D7 /* CXTableView.m in Sources */,
+				801585DA9281FD9D85AF59FC51F99707 /* CXTableViewModel.m in Sources */,
+				B88EABF063C845F9B0E4D61192633C25 /* HNTTableView.md in Sources */,
+				85658C3F822F5EDE353A0BF73A9EB122 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2263203B919AF57FB20B97D55759585C /* PBXTargetDependency */ = {
+		16A6EDD12F4AA05F9780A78289B1A75A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = LYEmptyView;
-			target = 4AA4C7BB776C55F3421BA137B643DD64 /* LYEmptyView */;
-			targetProxy = 6F3442339508C0C3DDE18E1F13ADDD93 /* PBXContainerItemProxy */;
+			name = MJRefresh;
+			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
+			targetProxy = 678243A6DC2359E9942FBF9EE251D4DC /* PBXContainerItemProxy */;
 		};
-		31D34E03FF8C514C8A71DE1A4A2768BE /* PBXTargetDependency */ = {
+		20B3A30627DECD6B5216317826B2B88B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CXTable_Example";
 			target = 0D07496F5EB74BE2EE4BF40B3F0F1032 /* Pods-CXTable_Example */;
-			targetProxy = 667DE159944C1CF736709BB9DF7A84CA /* PBXContainerItemProxy */;
+			targetProxy = 80287BF017990261574949787BC4BC64 /* PBXContainerItemProxy */;
 		};
-		98024E24BF298F066F5D74176F596519 /* PBXTargetDependency */ = {
+		23851440F255154F1FB11AA9C6227FFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WMZDialog;
 			target = C176F2FC508A7F81487945C9F7A21161 /* WMZDialog */;
-			targetProxy = 0FC7C4FF5DF214C6373886618A00C3A7 /* PBXContainerItemProxy */;
+			targetProxy = 4C26086826E488804CF8536CEB33CDDD /* PBXContainerItemProxy */;
 		};
-		B80AAB08DEF81AEC6D4BF21B500BC40A /* PBXTargetDependency */ = {
+		382CF3B12EBDBD78761BA0D547A79B73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LYEmptyView;
 			target = 4AA4C7BB776C55F3421BA137B643DD64 /* LYEmptyView */;
-			targetProxy = E5E68D783802EA7E4C1F2ED1DF775CD7 /* PBXContainerItemProxy */;
+			targetProxy = 6F5BE9EE4D3527938EC999C4747FF939 /* PBXContainerItemProxy */;
 		};
-		BBF056247F67D2032A5C2F4B5393D9CC /* PBXTargetDependency */ = {
+		580095CB561970000F686D1BB6506980 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CXTable;
-			target = DD616E46C53BCDAC9933A7FC332972D3 /* CXTable */;
-			targetProxy = 8662C6E00D6FAA66420D7541BC2C7E21 /* PBXContainerItemProxy */;
+			name = "CXTable-CXTable";
+			target = 4B0F395BFD4408316DD5886F22CB1BD1 /* CXTable-CXTable */;
+			targetProxy = 7D954F511D3933E7D70AFCDEB96E3743 /* PBXContainerItemProxy */;
 		};
-		CF34BBA27B9D05D1C3D74AF5FD098259 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJRefresh;
-			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
-			targetProxy = B859E6571D67AC69389FA4768F4AA710 /* PBXContainerItemProxy */;
-		};
-		DF8CF79C1C8C7EB2704208C3D063F598 /* PBXTargetDependency */ = {
+		5A4B7C9FBFCF9FB7E4F70D0630A82772 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WMZDialog;
 			target = C176F2FC508A7F81487945C9F7A21161 /* WMZDialog */;
-			targetProxy = DA3FE9390C649195F663013CE390B75E /* PBXContainerItemProxy */;
+			targetProxy = D9099DA8B778C30D3100B7DC39AAF7BB /* PBXContainerItemProxy */;
 		};
-		F5FEDF3D4B44C42FC053A7F2464CF49C /* PBXTargetDependency */ = {
+		A03370B799545BE863C1D3BE33D12BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LYEmptyView;
+			target = 4AA4C7BB776C55F3421BA137B643DD64 /* LYEmptyView */;
+			targetProxy = 1D94648886397A44C8ECD462619FA89F /* PBXContainerItemProxy */;
+		};
+		BCA701843A4D8E39F6B1C44516B303AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CXTable;
+			target = DD616E46C53BCDAC9933A7FC332972D3 /* CXTable */;
+			targetProxy = C0639D65F1BA7512EC569429AD15E11F /* PBXContainerItemProxy */;
+		};
+		C0DE6A7802C91155152AD89238AA4E44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
 			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
-			targetProxy = 76A28CF10F6A21E785DBB6EE3D9957B8 /* PBXContainerItemProxy */;
+			targetProxy = 4FDF00E039B309BEE7B0320EE3FAC793 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		133E91B0674B81F2C59ACD9F4321DECF /* Debug */ = {
+		202B9A66D4B569618511538347A95A54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AB6BBC0891121A1C74EE404F2EDFB3D /* Pods-CXTable_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1220,7 +1271,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CXTable_Tests/Pods-CXTable_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CXTable_Tests/Pods-CXTable_Tests.modulemap";
@@ -1237,7 +1288,387 @@
 			};
 			name = Debug;
 		};
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		214FE7015842131F5747C4D619DE899E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D81E8E8E230ED2B9C2295F31DBA19C6 /* MJRefresh.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		226D36A2EF1404B6887DE10EBBBFE5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7B48D1F5BE86062D1269924F816EB7 /* Pods-CXTable_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CXTable_Example/Pods-CXTable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CXTable_Example/Pods-CXTable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41133CFAB20C132F4DE2746997FFCA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CC957CD787997181542743AE8A01FB /* CXTable.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CXTable/CXTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CXTable/CXTable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CXTable/CXTable.modulemap";
+				PRODUCT_MODULE_NAME = CXTable;
+				PRODUCT_NAME = CXTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53837C7BFD8986C52E0895D448D1A541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A8C9CF90C40261FD9FBF5EC953F194 /* WMZDialog.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMZDialog/WMZDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMZDialog/WMZDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WMZDialog/WMZDialog.modulemap";
+				PRODUCT_MODULE_NAME = WMZDialog;
+				PRODUCT_NAME = WMZDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A5F9C1533C4381CE1C19458FC123E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CC957CD787997181542743AE8A01FB /* CXTable.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CXTable";
+				IBSC_MODULE = CXTable;
+				INFOPLIST_FILE = "Target Support Files/CXTable/ResourceBundle-CXTable-CXTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CXTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		772E44B99A01041F1463926B7A1ED5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB9A1FFBD251E31A34ADD984D82628A /* LYEmptyView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYEmptyView/LYEmptyView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYEmptyView/LYEmptyView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYEmptyView/LYEmptyView.modulemap";
+				PRODUCT_MODULE_NAME = LYEmptyView;
+				PRODUCT_NAME = LYEmptyView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9205740448E204EDE3BFD7905B7E2D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2ACAB41432F4CED2CA3A7A558A7CEE /* Pods-CXTable_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CXTable_Example/Pods-CXTable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CXTable_Example/Pods-CXTable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1C284F876F74E9A3D1C3F47730E857F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827C27471F10B2627BBFAC30E5248DBD /* CXTable.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CXTable";
+				IBSC_MODULE = CXTable;
+				INFOPLIST_FILE = "Target Support Files/CXTable/ResourceBundle-CXTable-CXTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CXTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C40AEF0B2C5337409AAAF88484D53A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30018AB8746441673BF39680A4B8C00D /* MJRefresh.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6A92343B54C3784A0D45B0232658C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252DDC3446032D226EB530A388E0ACA2 /* Pods-CXTable_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CXTable_Tests/Pods-CXTable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CXTable_Tests/Pods-CXTable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C99C5FAF30B134B53BB783D62E93DE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827C27471F10B2627BBFAC30E5248DBD /* CXTable.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CXTable/CXTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CXTable/CXTable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CXTable/CXTable.modulemap";
+				PRODUCT_MODULE_NAME = CXTable;
+				PRODUCT_NAME = CXTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1290,7 +1721,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1303,194 +1734,7 @@
 			};
 			name = Debug;
 		};
-		2B7B49BD2C315C87ED066555DBF85DDA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC2ACAB41432F4CED2CA3A7A558A7CEE /* Pods-CXTable_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CXTable_Example/Pods-CXTable_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CXTable_Example/Pods-CXTable_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		324CA287B3D1EF61A227176441F15164 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB8FAAA3D3681EB197ACC7BF63D188EA /* CXTable.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CXTable/CXTable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CXTable/CXTable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CXTable/CXTable.modulemap";
-				PRODUCT_MODULE_NAME = CXTable;
-				PRODUCT_NAME = CXTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		429A1338CDCB2E86A11D3C9340CE4D7D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A8C9CF90C40261FD9FBF5EC953F194 /* WMZDialog.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WMZDialog/WMZDialog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WMZDialog/WMZDialog-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WMZDialog/WMZDialog.modulemap";
-				PRODUCT_MODULE_NAME = WMZDialog;
-				PRODUCT_NAME = WMZDialog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5B428AB33C09EBBEA585B73C49D9CE78 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8E30C25058BA0073199BE92681F525B /* LYEmptyView.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LYEmptyView/LYEmptyView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LYEmptyView/LYEmptyView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LYEmptyView/LYEmptyView.modulemap";
-				PRODUCT_MODULE_NAME = LYEmptyView;
-				PRODUCT_NAME = LYEmptyView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6558BE9B9EE1C1CADFF34838CE7F07A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 252DDC3446032D226EB530A388E0ACA2 /* Pods-CXTable_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CXTable_Tests/Pods-CXTable_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CXTable_Tests/Pods-CXTable_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7C3ECF64A20AB2A2ED8EEB8D4F81BB53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D81E8E8E230ED2B9C2295F31DBA19C6 /* MJRefresh.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
-				PRODUCT_MODULE_NAME = MJRefresh;
-				PRODUCT_NAME = MJRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9505FD5E0662CD5B2794390AB7BF8747 /* Release */ = {
+		D575FBD6A22CBBE012B577EE5A2AAED3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7934B683562B69C91B68B5CD1D33263B /* WMZDialog.release.xcconfig */;
 			buildSettings = {
@@ -1521,70 +1765,9 @@
 			};
 			name = Release;
 		};
-		A1489B42889B1C3797D78136F1DF0618 /* Debug */ = {
+		F248286234D196868613C8DC15A90D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 094CD2887AE30189C497C7A7E6EF196E /* CXTable.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CXTable/CXTable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CXTable/CXTable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CXTable/CXTable.modulemap";
-				PRODUCT_MODULE_NAME = CXTable;
-				PRODUCT_NAME = CXTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BA394F5576E6E12E84513204F4B26637 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30018AB8746441673BF39680A4B8C00D /* MJRefresh.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
-				PRODUCT_MODULE_NAME = MJRefresh;
-				PRODUCT_NAME = MJRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BC48C73958035F64EAAABFF44472A225 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDB9A1FFBD251E31A34ADD984D82628A /* LYEmptyView.release.xcconfig */;
+			baseConfigurationReference = C8E30C25058BA0073199BE92681F525B /* LYEmptyView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1607,123 +1790,19 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C3767C7D5801633529A8AA361586D090 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E7B48D1F5BE86062D1269924F816EB7 /* Pods-CXTable_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CXTable_Example/Pods-CXTable_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CXTable_Example/Pods-CXTable_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1332EC6AF1A86E8C7923E4A72A0250BE /* Build configuration list for PBXNativeTarget "LYEmptyView" */ = {
+		3BE520ED8C3FB4781A5748682E82751F /* Build configuration list for PBXNativeTarget "CXTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B428AB33C09EBBEA585B73C49D9CE78 /* Debug */,
-				BC48C73958035F64EAAABFF44472A225 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		303195D66082B5DEEF8F19B816F4994D /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7C3ECF64A20AB2A2ED8EEB8D4F81BB53 /* Debug */,
-				BA394F5576E6E12E84513204F4B26637 /* Release */,
+				41133CFAB20C132F4DE2746997FFCA8C /* Debug */,
+				C99C5FAF30B134B53BB783D62E93DE4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1731,8 +1810,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D794734781E8F30712A0F6E7773BB52 /* Build configuration list for PBXNativeTarget "LYEmptyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F248286234D196868613C8DC15A90D36 /* Debug */,
+				772E44B99A01041F1463926B7A1ED5B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1740,8 +1828,8 @@
 		74908028D8840044118CD4C1656FF2FA /* Build configuration list for PBXNativeTarget "Pods-CXTable_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3767C7D5801633529A8AA361586D090 /* Debug */,
-				2B7B49BD2C315C87ED066555DBF85DDA /* Release */,
+				226D36A2EF1404B6887DE10EBBBFE5AA /* Debug */,
+				9205740448E204EDE3BFD7905B7E2D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1749,26 +1837,35 @@
 		78B42410721C3C0C3B9EC636C29CD465 /* Build configuration list for PBXNativeTarget "Pods-CXTable_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				133E91B0674B81F2C59ACD9F4321DECF /* Debug */,
-				6558BE9B9EE1C1CADFF34838CE7F07A5 /* Release */,
+				202B9A66D4B569618511538347A95A54 /* Debug */,
+				C6A92343B54C3784A0D45B0232658C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE8FF18A1E4BA9B61C5C84D7C04FBE8A /* Build configuration list for PBXNativeTarget "WMZDialog" */ = {
+		838B315EE21FC442747977B6D72D84AA /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				429A1338CDCB2E86A11D3C9340CE4D7D /* Debug */,
-				9505FD5E0662CD5B2794390AB7BF8747 /* Release */,
+				214FE7015842131F5747C4D619DE899E /* Debug */,
+				C40AEF0B2C5337409AAAF88484D53A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5C520B2E47228BEB27D672F6DFA8164 /* Build configuration list for PBXNativeTarget "CXTable" */ = {
+		A5774867CD42B4771C7BE15882A8C831 /* Build configuration list for PBXNativeTarget "CXTable-CXTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1489B42889B1C3797D78136F1DF0618 /* Debug */,
-				324CA287B3D1EF61A227176441F15164 /* Release */,
+				5A5F9C1533C4381CE1C19458FC123E18 /* Debug */,
+				C1C284F876F74E9A3D1C3F47730E857F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B105739AA3758A93F193BFFB577305F1 /* Build configuration list for PBXNativeTarget "WMZDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53837C7BFD8986C52E0895D448D1A541 /* Debug */,
+				D575FBD6A22CBBE012B577EE5A2AAED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
