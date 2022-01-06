@@ -119,8 +119,7 @@ CXTableViewModel *CXTableParam(void){
         self.tableViewStyle = UITableViewStyleGrouped;
 //        self.dataSource = @[@[@{@"name":@"1"},@{@"name":@"1"},@{@"name":@"1"},@{@"name":@"1"}]].mutableCopy;
         self.allowScroll = YES;
-        self.allowRefresh = NO;
-        
+        self.allowRefresh = NO;   
         
     }
     return self;
